@@ -1,18 +1,19 @@
 ---
 templateKey: index-page
 title: Great coffee with a conscience
-image: /img/home-jumbotron.jpg
+image: /img/breadcrumbs_img_1.jpg
 heading: What we do
-subheading: Introducing QZulu Token, the gateway to participating in the empowerment and transformation of more than 10 million people across more than 2 million hectares through advanced technology and economic development
+subheading: >-
+  Introducing QZulu Token, the gateway to participating in the empowerment and
+  transformation of more than 10 million people across more than 2 million
+  hectares through advanced technology and economic development
 mainpitch:
   title: Why Qzulu token
   description: >
-    An abundance of opportunities to catalyze positive economic transformation through Quantum Kingdom of Zululand directs our holistic focus in addressing these opportunities through the businesses we manage and the projects they undertake.
-description: >-
-  Kaldi is the ultimate spot for coffee lovers who want to learn about their
-  java’s origin and support the farmers that grew it. We take coffee production,
-  roasting and brewing seriously and we’re glad to pass that knowledge to
-  anyone.
+    An abundance of opportunities to catalyze positive economic transformation
+    through Quantum Kingdom of Zululand directs our holistic focus in addressing
+    these opportunities through the businesses we manage and the projects they
+    undertake.
 intro:
   blurbs:
     - image: /img/coffee.png
@@ -64,4 +65,9 @@ main:
   image3:
     alt: Coffee beans
     image: /img/products-grid1.jpg
+description: >-
+  Kaldi is the ultimate spot for coffee lovers who want to learn about their
+  java’s origin and support the farmers that grew it. We take coffee production,
+  roasting and brewing seriously and we’re glad to pass that knowledge to
+  anyone.
 ---
