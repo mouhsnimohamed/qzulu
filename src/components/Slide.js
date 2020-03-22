@@ -1,4 +1,6 @@
 import React from 'react';
+import Back from '../img/back.svg';
+import Next from '../img/next.svg';
 import makeCarousel from 'react-reveal/makeCarousel';
 import Slide from 'react-reveal/Slide';
 import PropTypes from 'prop-types';
@@ -7,32 +9,33 @@ import PreviewCompatibleImage from '../components/PreviewCompatibleImage';
 const CarouselUI = ({ position, handleClick, children }) => (
   <div className="slider">
     {children}
-    <div onClick={handleClick} data-position={position - 1}>
-      {'< prev'}
+    <div
+      className="arows prev"
+      onClick={handleClick}
+      data-position={position - 1}>
+      <img alt="" src={Back} />
     </div>
-    <div right onClick={handleClick} data-position={position + 1}>
-      {'next >'}
+    <div
+      className="arows next"
+      onClick={handleClick}
+      data-position={position + 1}>
+      <img alt="" src={Next} />
     </div>
   </div>
 );
 const Carousel = makeCarousel(CarouselUI);
 
 const Slider = ({ slideItems }) => (
-  <Carousel defaultWait={5000}>
+  <Carousel defaultWait={60000}>
     {slideItems.map(item => (
       <Slide right key={item.text}>
-        <section className="section">
+        <div className="slide-container">
           <div className="has-text-centered">
-            <div
-              style={{
-                width: '240px',
-                display: 'inline-block'
-              }}>
-              <PreviewCompatibleImage imageInfo={item} />
-            </div>
+            <PreviewCompatibleImage imageInfo={item} />
           </div>
-          <p>{item.text}</p>
-        </section>
+
+          <p className="is-size-2">{item.text}</p>
+        </div>
       </Slide>
     ))}
   </Carousel>

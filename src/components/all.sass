@@ -2,13 +2,13 @@
 
 // Config vars
 // Kaldi logo brand color: #FD461E
-$kaldi-red: #D64000
+$kaldi-red: #28abe3
 $kaldi-red-invert: #fff
 
 $primary: $kaldi-red
 $primary-invert: $kaldi-red-invert
 $body-color: #333
-$black: #2b2523
+$black: #17191c
 
 .navbar .navbar-menu
   box-shadow:none !important
@@ -81,8 +81,26 @@ $black: #2b2523
 .navbar-brand .navbar-item.logo
   padding: 0 1rem
 footer.footer
+  position: relative;
   padding: 3rem 0rem 0rem
-  background-color: transparent
+  background-size: cover
+  background-image: url("../img/footer-bg.png")
+footer.footer > div
+  position: relative;
+  z-index: 1;
+
+footer.footer:before
+  z-index: 1;
+  content: '';
+  opacity: 0.8;
+  display: block;
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  background-color: $black;
+
 
 //Menu overrides
 $menu-item-color: $white-ter
@@ -125,7 +143,68 @@ $menu-label-color: $white-ter
   position: relative;
   overflow: hidden;
   width: 100%;
-  height: 250px;
+  height: 600px;
+
+.slider .arows
+  line-height: 40px;
+  text-align: center;
+  color: $primary;
+  width: 40px;
+  height: 40px;
+  background: #fff;
+  border-radius: 50%;
+  position: absolute;
+  top: 50%;
+  margin-top: -20px;
+  transition: all .35s ease;
+  z-index: 9;
+  cursor: pointer;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+.slider .arows.next
+  right: 20px;
+.slider .arows.prev
+  left: 20px;
+.slider .arows img
+  display: block;
+  width: 20px;
+  
+.slide-container
+  height: 100%;
+  position: relative;
+.slide-container p
+  position: absolute;
+  padding: 120px;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  top: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: white;
+  text-align: center;
+  z-index: 2;
+  text-shadow: $black 0 3px 2px;
+.slide-container:before
+  background: $black;
+  opacity: 0.2;
+  z-index: 1;
+  content: ' ';
+  position: absolute;
+  width: 100%;
+  height: 100%;
+
+.intro-title
+  box-shadow: #28abe3 0.5rem 0px 0px, #28abe3 -0.5rem 0px 0px;
+  background-color: $primary;
+  color: white;
+  line-height: 1.5;
+  padding: 0.5em;
+  margin: 0 auto;
+  width: 90%;
 
 
 @import "~bulma"
