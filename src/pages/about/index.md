@@ -1,19 +1,16 @@
 ---
-templateKey: 'about-page'
+templateKey: about-page
 path: /about
-title: About our values
+title: About QZulu
+image: /img/breadcrumbs_img_3.jpg
+heading: About Quantum Zulu
 ---
-### Shade-grown coffee
-Coffee is a small tree or shrub that grows in the forest understory in its wild form, and traditionally was grown commercially under other trees that provided shade. The forest-like structure of shade coffee farms provides habitat for a great number of migratory and resident species.
+Our Quantum Kingdom of Zululand initiative is a strategic partnership that was established to transform the Ingonyama region of South Africa into a regional and continental hallmark of economic success.
 
-### Single origin
-Single-origin coffee is coffee grown within a single known geographic origin. Sometimes, this is a single farm or a specific collection of beans from a single country. The name of the coffee is then usually the place it was grown to whatever degree available.
+With approximately twelve million residents in the area that has historically and traditionally been known as the Kingdom of Zululand, the opportunity to dynamically and positively impact the lives of those in the region is our primary focus.
 
-### Sustainable farming
-Sustainable agriculture is farming in sustainable ways based on an understanding of ecosystem services, the study of relationships between organisms and their environment. What grows where and how it is grown are a matter of choice and careful consideration for nature and communities.
+Our approach has been modeled after the Singaporean brand by implementing next-generation Quantum technologies and solutions, a strategy that has successfully transformed Singapore into a shining, global example of advanced economic success.  This approach exemplifies the positive economic impact and transformation that catalyze greater employment, higher incomes, economic expansion, diversified industries, and an increasing level of worker productivity.
 
-### Direct sourcing
-Direct trade is a form of sourcing practiced by some coffee roasters. Advocates of direct trade practices promote direct communication and price negotiation between buyer and farmer, along with systems that encourage and incentivize quality.
+Quantum Kingdom of Zululand is a Joint Venture between Quantum Age Corporation and Ingonyama Holdings.  Quantum Age Corporation is a private company registered in Singapore that develops and implements advanced technology solutions, and is empowered to facilitate and manage the technology solutions with other information technology and communications partners.
 
-### Reinvest profits
-We want to truly empower the communities that bring amazing coffee to you. That’s why we reinvest 20% of our profits into farms, local businesses and schools everywhere our coffee is grown. You can see the communities grow and learn more about coffee farming on our blog.
+Ingonyama Holdings has a mandate to maximize the material welfare and social well-being of the members and constituents of the Zulu Nation, as well as the other communities inhabiting the 2.883 million hectares that it administers in the province of KwaZulu Natal, South Africa.  The goal of Ingonyama Holdings is to ensure the sustainable development of the Ingonyama region.
