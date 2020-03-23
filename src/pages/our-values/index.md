@@ -1,6 +1,6 @@
 ---
-templateKey: why-us-page
-path: /why-us
+templateKey: our-values-page
+path: /our-values
 title: why us
 ---
 
