@@ -3,21 +3,20 @@ import PropTypes from 'prop-types';
 import PreviewCompatibleImage from '../components/PreviewCompatibleImage';
 
 const FeatureGrid = ({ gridItems }) => (
-  <div className="columns is-multiline">
+  <div className="values-holder">
     {gridItems.map(item => (
-      <div key={item.text} className="column is-6">
-        <section className="section">
+      <div key={item.text} className="columns">
+        <div className="column is-6">
           <div className="has-text-centered">
-            <div
-              style={{
-                width: '240px',
-                display: 'inline-block'
-              }}>
-              <PreviewCompatibleImage imageInfo={item} />
-            </div>
+            <PreviewCompatibleImage imageInfo={item} />
           </div>
+        </div>
+        <div className="column is-6 text-holder">
+          <h2 className="has-text-weight-bold is-size-2 value-title">
+            {item.title}
+          </h2>
           <p>{item.text}</p>
-        </section>
+        </div>
       </div>
     ))}
   </div>

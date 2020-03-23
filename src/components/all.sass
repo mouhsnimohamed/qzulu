@@ -212,6 +212,39 @@ $menu-label-color: $white-ter
 .intro-inline
   width: auto;
 
+.costum-p
+  font-size: 28px;
+  line-height: 45px;
+  color: #2c3035;
+  margin-bottom: 80px;
+  font-style: italic;
+
+.values-holder
+  counter-reset: service-number;
+
+.values-holder .columns
+  margin-bottom: 100px!important;
+  counter-increment: service-number;
+
+.values-holder .text-holder
+  margin-left: 10px;
+
+.values-holder .columns:nth-child(2n)
+  flex-direction: row-reverse
+
+  & .text-holder
+      margin-left: 0;
+      margin-right: 10px;
+
+.values-holder .value-title:before
+  content: '0'counter(service-number);
+  font-family: sans-serif;
+  color: $primary;
+  font-size: 48px;
+  font-weight: 800;
+  line-height: 48px;
+  display: block;
+  margin: -8px 0 15px 0;
 
 @import "~bulma"
 
