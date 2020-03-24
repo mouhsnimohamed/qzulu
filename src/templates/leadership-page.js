@@ -6,11 +6,9 @@ import Layout from '../components/Layout';
 import Content, { HTMLContent } from '../components/Content';
 
 export const LeadershipPageTemplate = ({
-  title,
   content,
   contentComponent,
-  image,
-  heading
+  banner
 }) => {
   const PageContent = contentComponent || Content;
 
@@ -20,20 +18,13 @@ export const LeadershipPageTemplate = ({
         className="full-width-image-container margin-top-0"
         style={{
           backgroundImage: `url(${
-            !!image.childImageSharp ? image.childImageSharp.fluid.src : image
+            !!banner.childImageSharp ? banner.childImageSharp.fluid.src : banner
           })`
-        }}>
-        <h2 className="has-text-weight-bold is-size-1 intro-title intro-inline">
-          {title}
-        </h2>
-      </div>
+        }}></div>
       <section className="section section--gradient">
         <div className="container">
           {/* <PreviewCompatibleImage imageInfo={{ image: imagePage }} /> */}
           <div className="section">
-            <h2 className="title is-size-2 has-text-weight-bold is-bold-light">
-              {heading}
-            </h2>
             <PageContent className="content" content={content} />
           </div>
         </div>
@@ -43,7 +34,6 @@ export const LeadershipPageTemplate = ({
 };
 
 LeadershipPageTemplate.propTypes = {
-  title: PropTypes.string.isRequired,
   content: PropTypes.string,
   banner: PropTypes.oneOfType([PropTypes.object, PropTypes.string]),
   contentComponent: PropTypes.func
@@ -56,8 +46,7 @@ const LeadershipPage = ({ data }) => {
     <Layout>
       <LeadershipPageTemplate
         contentComponent={HTMLContent}
-        image={post.frontmatter.image}
-        title={post.frontmatter.title}
+        banner={post.frontmatter.banner}
         content={post.html}
       />
     </Layout>
