@@ -16,23 +16,23 @@ mainpitch:
     undertake.
 intro:
   blurbs:
-    - image: /img/slide_01.jpg
+    - image: /img/slider-1-qzulu-final.jpg
       text: >
         Empowering economic livelihood through next-generation technologies to
         create opportunity and self-sufficiency.
-    - image: /img/slide_02.jpg
+    - image: /img/slider-2-qzulu-final.jpg
       text: >
         Transforming the Kingdom of Zululand and its people into hallmarks of
         economic success across Africa.
-    - image: /img/slide_03.jpg
+    - image: /img/slider-3-qzulu-final.jpg
       text: >
         Strategically and dynamically partnered with the Zulu people to create
         employment, diversify industry, and deepen commercial ties.
-    - image: /img/slide_04.jpg
+    - image: /img/slider-4-qzulu-final.jpg
       text: >-
         Positive economic transformation cultivated by accomplished
         international partners and local work ethic.
-    - image: /img/slide_05.jpg
+    - image: /img/slider-5-qzulu-final.jpg
       text: >-
         Inspiring economic dynamism across a broad range of industries through
         sustainable best practices.
