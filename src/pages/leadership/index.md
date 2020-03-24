@@ -5,15 +5,16 @@ banner: /img/our-values-qzulu-final.jpg
 members:
   - image: /img/faiz-chowdhury-qzulu-final.jpg
     name: 'Faiz Chowdhury '
-    function: Art Director
-    bio: >-
-      Contrary to popular belief, Lorem Ipsum is not simply random text. It has
-      roots in a piece of classical Latin literature from 45 BC.
+    function: 'Founder of DTI Holdings and QAC, Chair & CEO'
+    bio: |
+      Co-chair Super Kingdom
+      Quantum technologies, AI, Blockchain, Smart Nano Particles & Graphene
+      Quantum technology scientist
   - name: Prince Buzabazi
     function: Marketing Chief
     bio: >-
-      Contrary to popular belief, making it over
-      2000 years old. Richard McClintock, a Latin professor at Hampden.
+      Contrary to popular belief, making it over 2000 years old. Richard
+      McClintock, a Latin professor at Hampden.
     image: /img/prince-qzulu-final.jpg
   - function: Sales Manager
     bio: >-
