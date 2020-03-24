@@ -126,6 +126,30 @@ collections:
           - { label: Phone, name: phone, widget: string }
           - { label: Email, name: email, widget: string }
           - { label: Address, name: address, widget: string }
+      - file: 'src/pages/leadership/index.md'
+        label: 'leadership'
+        name: 'leadership'
+        fields:
+          - {
+              label: 'Template Key',
+              name: 'templateKey',
+              widget: 'hidden',
+              default: 'leadership-page',
+            }
+          - { label: Banner, name: banner, widget: image }
+          - { label: 'Body', name: 'body', widget: 'markdown' }
+          - {
+              label: Team Members,
+              name: members,
+              widget: list,
+              fields:
+                [
+                  { label: Image, name: image, widget: image },
+                  { label: Name, name: name, widget: string },
+                  { label: Function, name: function, widget: string },
+                  { label: Bio, name: bio, widget: text },
+                ],
+            }
       # - file: 'src/pages/products/index.md'
       #   label: 'Products Page'
       #   name: 'products'
