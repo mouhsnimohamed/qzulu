@@ -89,13 +89,6 @@ export const aboutPageQuery = graphql`
           }
         }
         heading
-        // imagePage {
-        //   childImageSharp {
-        //     fluid(maxWidth: 1200, quality: 100) {
-        //       ...GatsbyImageSharpFluid
-        //     }
-        //   }
-        // }
       }
     }
   }
