@@ -2,7 +2,7 @@
 templateKey: our-values-page
 path: /our-values
 title: Our Values
-image: /img/breadcrumbs_img_5.jpg
+image: /img/our-values-qzulu-final.jpg
 description: "An abundance of opportunities to catalyze positive economic transformation through Quantum Kingdom of Zululand directs our holistic focus in addressing these opportunities through the businesses we manage and the projects they undertake.\t\nThere are many abiding principles that govern our approach and activities, including:"
 ourValues:
   - text: >
