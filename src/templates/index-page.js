@@ -7,7 +7,7 @@ import Slide from '../components/Slide';
 
 export const IndexPageTemplate = ({
   image,
-  heading,
+  // heading,
   subheading,
   title,
   intro
@@ -56,7 +56,7 @@ export const IndexPageTemplate = ({
                 </div>
 
                 <h3 className="has-text-weight-semibold is-size-2">
-                  {heading}
+                  {intro.heading}
                 </h3>
                 <Slide slideItems={intro.blurbs} />
               </div>
@@ -71,7 +71,7 @@ export const IndexPageTemplate = ({
 IndexPageTemplate.propTypes = {
   image: PropTypes.oneOfType([PropTypes.object, PropTypes.string]),
   title: PropTypes.string,
-  heading: PropTypes.string,
+  // heading: PropTypes.string,
   subheading: PropTypes.string,
   // mainpitch: PropTypes.object,
   // description: PropTypes.string,
@@ -88,7 +88,7 @@ const IndexPage = ({ data }) => {
       <IndexPageTemplate
         image={frontmatter.image}
         title={frontmatter.title}
-        heading={frontmatter.heading}
+        // heading={frontmatter.heading}
         subheading={frontmatter.subheading}
         // mainpitch={frontmatter.mainpitch}
         // description={frontmatter.description}
@@ -120,9 +120,9 @@ export const pageQuery = graphql`
             }
           }
         }
-        heading
         subheading
         intro {
+          heading
           blurbs {
             image {
               childImageSharp {
