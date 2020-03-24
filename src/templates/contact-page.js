@@ -8,7 +8,7 @@ function encode(data) {
     .join('&');
 }
 
-export default class Index extends React.Component {
+class ContactPage extends React.Component {
   constructor(props) {
     super(props);
     this.state = { isValidated: false };
@@ -34,6 +34,7 @@ export default class Index extends React.Component {
   };
 
   render() {
+    console.log(this.props.data);
     return (
       <Layout>
         <section className="section">
@@ -122,3 +123,23 @@ export default class Index extends React.Component {
     );
   }
 }
+
+ContactPage.propTypes = {
+  data: PropTypes.object.isRequired
+};
+
+export default ContactPage;
+
+export const ContactPageQuery = graphql`
+  query ContactPage($id: String!) {
+    markdownRemark(id: { eq: $id }) {
+      html
+      frontmatter {
+        title
+        phone
+        email
+        address
+      }
+    }
+  }
+`;
