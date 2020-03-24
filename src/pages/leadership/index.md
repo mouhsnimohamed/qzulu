@@ -10,11 +10,13 @@ members:
       Co-chair Super Kingdom
       Quantum technologies, AI, Blockchain, Smart Nano Particles & Graphene
       Quantum technology scientist
-  - name: Prince Buzabazi
-    function: Marketing Chief
+  - name: Prince Buzabazi Zulu
+    function: Co-Chair Super Kingdom
     bio: >-
-      Contrary to popular belief, making it over 2000 years old. Richard
-      McClintock, a Latin professor at Hampden.
+      Son of King Goodwill Zwelithini kaBhekuzulu reigning King of the Zulu
+      Nation
+
+      Dedicated to improving the lives of the constituents of the Zulu Nation
     image: /img/prince-qzulu-final.jpg
   - function: Sales Manager
     bio: >-
