@@ -36,86 +36,166 @@ class ContactPage extends React.Component {
   };
 
   render() {
-    console.log(this.props.data);
+    const {
+      markdownRemark: { frontmatter }
+    } = this.props.data;
     return (
       <Layout>
         <section className="section">
           <div className="container">
             <div className="content">
               <div className="columns">
-                <div className="column is-6"></div>
-                <div className="column is-6">
-                  <form
-                    name="contact"
-                    method="post"
-                    action="/contact/thanks/"
-                    data-netlify="true"
-                    data-netlify-honeypot="bot-field"
-                    onSubmit={this.handleSubmit}>
-                    {/* The `form-name` hidden field is required to support form submissions without JavaScript */}
-                    <input type="hidden" name="form-name" value="contact" />
-                    <div hidden>
-                      <label>
-                        Don’t fill this out:{' '}
-                        <input name="bot-field" onChange={this.handleChange} />
-                      </label>
+                <div className="column is-10 is-offset-1">
+                  <div className="columns">
+                    <div className="column is-6">
+                      <h1 className="has-text-weight-semibold is-size-2">
+                        {frontmatter.title}
+                      </h1>
+
+                      <div className="Contact--Details">
+                        <a
+                          className="Contact--Details--Item"
+                          href="https://www.google.com.au/maps/search/404%20James%20St,%20Burleigh%20Heads%20QLD%204220"
+                          target="_blank"
+                          rel="noopener noreferrer">
+                          <svg
+                            xmlns="http://www.w3.org/2000/svg"
+                            width="24"
+                            height="24"
+                            viewBox="0 0 24 24"
+                            fill="none"
+                            stroke="currentColor"
+                            strokeWidth="2"
+                            strokeLinecap="round"
+                            strokeLinejoin="round">
+                            <path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z"></path>
+                            <circle cx="12" cy="10" r="3"></circle>
+                          </svg>{' '}
+                          {frontmatter.address}
+                        </a>
+                        <a
+                          className="Contact--Details--Item"
+                          href="tel:0987 123 456">
+                          <svg
+                            xmlns="http://www.w3.org/2000/svg"
+                            width="24"
+                            height="24"
+                            viewBox="0 0 24 24"
+                            fill="none"
+                            stroke="currentColor"
+                            strokeWidth="2"
+                            strokeLinecap="round"
+                            strokeLinejoin="round">
+                            <rect
+                              x="5"
+                              y="2"
+                              width="14"
+                              height="20"
+                              rx="2"
+                              ry="2"></rect>
+                            <line x1="12" y1="18" x2="12" y2="18"></line>
+                          </svg>{' '}
+                          {frontmatter.phone}
+                        </a>
+                        <a
+                          className="Contact--Details--Item"
+                          href={`mailto:${frontmatter.email}`}>
+                          <svg
+                            xmlns="http://www.w3.org/2000/svg"
+                            width="24"
+                            height="24"
+                            viewBox="0 0 24 24"
+                            fill="none"
+                            stroke="currentColor"
+                            strokeWidth="2"
+                            strokeLinecap="round"
+                            strokeLinejoin="round">
+                            <path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"></path>
+                            <polyline points="22,6 12,13 2,6"></polyline>
+                          </svg>{' '}
+                          {frontmatter.email}
+                        </a>
+                      </div>
                     </div>
-                    <div className="columns">
-                      <div className="column">
+                    <div className="column is-5 is-offset-1">
+                      <form
+                        name="contact"
+                        method="post"
+                        action="/contact/thanks/"
+                        data-netlify="true"
+                        data-netlify-honeypot="bot-field"
+                        onSubmit={this.handleSubmit}>
+                        {/* The `form-name` hidden field is required to support form submissions without JavaScript */}
+                        <input type="hidden" name="form-name" value="contact" />
+                        <div hidden>
+                          <label>
+                            Don’t fill this out:{' '}
+                            <input
+                              name="bot-field"
+                              onChange={this.handleChange}
+                            />
+                          </label>
+                        </div>
+                        <div className="columns">
+                          <div className="column">
+                            <div className="field">
+                              <label className="label" htmlFor={'email'}>
+                                Email
+                              </label>
+                              <div className="control">
+                                <input
+                                  placeholder="Email *"
+                                  className="input"
+                                  type={'email'}
+                                  name={'email'}
+                                  onChange={this.handleChange}
+                                  id={'email'}
+                                  required={true}
+                                />
+                              </div>
+                            </div>
+                          </div>
+                          <div className="column">
+                            <div className="field">
+                              <label className="label" htmlFor={'subject'}>
+                                Subject
+                              </label>
+                              <div className="control">
+                                <input
+                                  className="input"
+                                  type={'text'}
+                                  name={'subject'}
+                                  onChange={this.handleChange}
+                                  id={'subject'}
+                                />
+                              </div>
+                            </div>
+                          </div>
+                        </div>
                         <div className="field">
-                          <label className="label" htmlFor={'email'}>
-                            Email
+                          <label className="label" htmlFor={'message'}>
+                            Message
                           </label>
                           <div className="control">
-                            <input
-                              placeholder="Email *"
-                              className="input"
-                              type={'email'}
-                              name={'email'}
+                            <textarea
+                              className="textarea"
+                              name={'message'}
                               onChange={this.handleChange}
-                              id={'email'}
+                              id={'message'}
                               required={true}
                             />
                           </div>
                         </div>
-                      </div>
-                      <div className="column">
                         <div className="field">
-                          <label className="label" htmlFor={'subject'}>
-                            Subject
-                          </label>
-                          <div className="control">
-                            <input
-                              className="input block"
-                              type={'text'}
-                              name={'subject'}
-                              onChange={this.handleChange}
-                              id={'subject'}
-                            />
-                          </div>
+                          <button
+                            className="button is-link is-fullwidth"
+                            type="submit">
+                            Send
+                          </button>
                         </div>
-                      </div>
+                      </form>
                     </div>
-                    <div className="field">
-                      <label className="label" htmlFor={'message'}>
-                        Message
-                      </label>
-                      <div className="control">
-                        <textarea
-                          className="textarea"
-                          name={'message'}
-                          onChange={this.handleChange}
-                          id={'message'}
-                          required={true}
-                        />
-                      </div>
-                    </div>
-                    <div className="field">
-                      <button className="button is-link" type="submit">
-                        Send
-                      </button>
-                    </div>
-                  </form>
+                  </div>
                 </div>
               </div>
             </div>

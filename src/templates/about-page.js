@@ -10,7 +10,6 @@ export const AboutPageTemplate = ({
   content,
   contentComponent,
   image,
-  // imagePage,
   heading
 }) => {
   const PageContent = contentComponent || Content;
