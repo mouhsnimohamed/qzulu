@@ -1,6 +1,8 @@
 import React from 'react';
+import PropTypes from 'prop-types';
+import { graphql } from 'gatsby';
 import { navigate } from 'gatsby-link';
-import Layout from '../../components/Layout';
+import Layout from '../components/Layout';
 
 function encode(data) {
   return Object.keys(data)
@@ -133,7 +135,6 @@ export default ContactPage;
 export const ContactPageQuery = graphql`
   query ContactPage($id: String!) {
     markdownRemark(id: { eq: $id }) {
-      html
       frontmatter {
         title
         phone
