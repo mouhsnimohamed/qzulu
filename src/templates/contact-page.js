@@ -53,11 +53,9 @@ class ContactPage extends React.Component {
                       </h1>
 
                       <div className="Contact--Details">
-                        <a
+                        <span
                           className="Contact--Details--Item"
-                          href="https://www.google.com.au/maps/search/404%20James%20St,%20Burleigh%20Heads%20QLD%204220"
-                          target="_blank"
-                          rel="noopener noreferrer">
+                          target="_blank">
                           <svg
                             xmlns="http://www.w3.org/2000/svg"
                             width="24"
@@ -72,10 +70,10 @@ class ContactPage extends React.Component {
                             <circle cx="12" cy="10" r="3"></circle>
                           </svg>{' '}
                           {frontmatter.address}
-                        </a>
+                        </span>
                         <a
                           className="Contact--Details--Item"
-                          href="tel:0987 123 456">
+                          href={`tel:${frontmatter.phone}`}>
                           <svg
                             xmlns="http://www.w3.org/2000/svg"
                             width="24"
