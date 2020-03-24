@@ -1,17 +1,17 @@
 import React from 'react';
 import PropTypes from 'prop-types';
 import { graphql } from 'gatsby';
-import PreviewCompatibleImage from '../components/PreviewCompatibleImage';
+import Members from '../components/Members';
 import Layout from '../components/Layout';
 import Content, { HTMLContent } from '../components/Content';
 
 export const LeadershipPageTemplate = ({
   content,
   contentComponent,
-  banner
+  banner,
+  members
 }) => {
   const PageContent = contentComponent || Content;
-
   return (
     <div className="content">
       <div
@@ -23,10 +23,8 @@ export const LeadershipPageTemplate = ({
         }}></div>
       <section className="section section--gradient">
         <div className="container">
-          {/* <PreviewCompatibleImage imageInfo={{ image: imagePage }} /> */}
-          <div className="section">
-            <PageContent className="content" content={content} />
-          </div>
+          <PageContent className="content" content={content} />
+          <Members members={members} />
         </div>
       </section>
     </div>
@@ -35,6 +33,7 @@ export const LeadershipPageTemplate = ({
 
 LeadershipPageTemplate.propTypes = {
   content: PropTypes.string,
+  members: PropTypes.array,
   banner: PropTypes.oneOfType([PropTypes.object, PropTypes.string]),
   contentComponent: PropTypes.func
 };
@@ -47,6 +46,7 @@ const LeadershipPage = ({ data }) => {
       <LeadershipPageTemplate
         contentComponent={HTMLContent}
         banner={post.frontmatter.banner}
+        members={post.frontmatter.members}
         content={post.html}
       />
     </Layout>
@@ -70,6 +70,18 @@ export const LeadershipPageQuery = graphql`
               ...GatsbyImageSharpFluid
             }
           }
+        }
+        members {
+          image {
+            childImageSharp {
+              fluid(maxWidth: 450, quality: 100) {
+                ...GatsbyImageSharpFluid
+              }
+            }
+          }
+          name
+          function
+          bio
         }
       }
     }
