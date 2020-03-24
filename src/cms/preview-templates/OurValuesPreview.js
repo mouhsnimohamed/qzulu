@@ -2,7 +2,7 @@ import React from 'react';
 import PropTypes from 'prop-types';
 import { OurValuesTemplate } from '../../templates/our-values-page';
 
-const OurValuesPreview = ({ entry, widgetFor }) => (
+const OurValuesPreview = ({ entry }) => (
   <OurValuesTemplate
     title={entry.getIn(['data', 'title'])}
     image={entry.getIn(['data', 'image'])}
