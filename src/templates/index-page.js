@@ -9,7 +9,7 @@ export const IndexPageTemplate = ({
   image,
   heading,
   subheading,
-  mainpitch,
+  title,
   intro
 }) => (
   <div>
@@ -21,19 +21,21 @@ export const IndexPageTemplate = ({
         })`,
         backgroundPosition: `top left`
       }}>
-      {/* <div
-        style={{
-          display: 'flex',
-          height: '150px',
-          lineHeight: '1',
-          justifyContent: 'space-around',
-          alignItems: 'left',
-          flexDirection: 'column'
-        }}>
-        <h1 className="has-text-weight-bold is-size-5-mobile is-size-5-tablet is-size-4-widescreen intro-title">
-          {subheading}
-        </h1>
-      </div> */}
+      {title && (
+        <div
+          style={{
+            display: 'flex',
+            height: '150px',
+            lineHeight: '1',
+            justifyContent: 'space-around',
+            alignItems: 'left',
+            flexDirection: 'column'
+          }}>
+          <h1 className="has-text-weight-bold is-size-1 intro-title intro-inline">
+            {title}
+          </h1>
+        </div>
+      )}
     </div>
     <section className="section section--gradient">
       <div className="container">
@@ -71,8 +73,8 @@ IndexPageTemplate.propTypes = {
   title: PropTypes.string,
   heading: PropTypes.string,
   subheading: PropTypes.string,
-  mainpitch: PropTypes.object,
-  description: PropTypes.string,
+  // mainpitch: PropTypes.object,
+  // description: PropTypes.string,
   intro: PropTypes.shape({
     blurbs: PropTypes.array
   })
@@ -88,8 +90,8 @@ const IndexPage = ({ data }) => {
         title={frontmatter.title}
         heading={frontmatter.heading}
         subheading={frontmatter.subheading}
-        mainpitch={frontmatter.mainpitch}
-        description={frontmatter.description}
+        // mainpitch={frontmatter.mainpitch}
+        // description={frontmatter.description}
         intro={frontmatter.intro}
       />
     </Layout>
@@ -120,11 +122,11 @@ export const pageQuery = graphql`
         }
         heading
         subheading
-        mainpitch {
-          title
-          description
-        }
-        description
+        // mainpitch {
+        //   title
+        //   description
+        // }
+        // description
         intro {
           blurbs {
             image {
@@ -136,8 +138,6 @@ export const pageQuery = graphql`
             }
             text
           }
-          heading
-          description
         }
       }
     }

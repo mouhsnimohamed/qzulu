@@ -10,7 +10,7 @@ export const AboutPageTemplate = ({
   content,
   contentComponent,
   image,
-  imagePage,
+  // imagePage,
   heading
 }) => {
   const PageContent = contentComponent || Content;
@@ -30,7 +30,7 @@ export const AboutPageTemplate = ({
       </div>
       <section className="section section--gradient">
         <div className="container">
-          <PreviewCompatibleImage imageInfo={{ image: imagePage }} />
+          {/* <PreviewCompatibleImage imageInfo={{ image: imagePage }} /> */}
           <div className="section">
             <h2 className="title is-size-2 has-text-weight-bold is-bold-light">
               {heading}
@@ -48,7 +48,7 @@ AboutPageTemplate.propTypes = {
   content: PropTypes.string,
   heading: PropTypes.string,
   image: PropTypes.oneOfType([PropTypes.object, PropTypes.string]),
-  imagePage: PropTypes.oneOfType([PropTypes.object, PropTypes.string]),
+  // imagePage: PropTypes.oneOfType([PropTypes.object, PropTypes.string]),
   contentComponent: PropTypes.func
 };
 
@@ -59,7 +59,7 @@ const AboutPage = ({ data }) => {
     <Layout>
       <AboutPageTemplate
         contentComponent={HTMLContent}
-        imagePage={post.frontmatter.imagePage}
+        // imagePage={post.frontmatter.imagePage}
         image={post.frontmatter.image}
         heading={post.frontmatter.heading}
         title={post.frontmatter.title}
@@ -89,13 +89,13 @@ export const aboutPageQuery = graphql`
           }
         }
         heading
-        imagePage {
-          childImageSharp {
-            fluid(maxWidth: 1200, quality: 100) {
-              ...GatsbyImageSharpFluid
-            }
-          }
-        }
+        // imagePage {
+        //   childImageSharp {
+        //     fluid(maxWidth: 1200, quality: 100) {
+        //       ...GatsbyImageSharpFluid
+        //     }
+        //   }
+        // }
       }
     }
   }

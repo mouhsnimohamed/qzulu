@@ -1,0 +1,108 @@
+{
+  "componentChunkName": "component---src-templates-index-page-js",
+  "path": "/",
+  "result": {
+    "data": {
+      "markdownRemark": {
+        "frontmatter": {
+          "title": "Great coffee with a conscience",
+          "image": {
+            "childImageSharp": {
+              "fluid": {
+                "base64": "data:image/jpeg;base64,/9j/2wBDABALDA4MChAODQ4SERATGCgaGBYWGDEjJR0oOjM9PDkzODdASFxOQERXRTc4UG1RV19iZ2hnPk1xeXBkeFxlZ2P/2wBDARESEhgVGC8aGi9jQjhCY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2P/wgARCAAFABQDASIAAhEBAxEB/8QAFwABAAMAAAAAAAAAAAAAAAAAAAEEBf/EABQBAQAAAAAAAAAAAAAAAAAAAAL/2gAMAwEAAhADEAAAAcuBC2A//8QAGBAAAgMAAAAAAAAAAAAAAAAAAQIAESL/2gAIAQEAAQUCY2YrZ//EABQRAQAAAAAAAAAAAAAAAAAAABD/2gAIAQMBAT8BP//EABQRAQAAAAAAAAAAAAAAAAAAABD/2gAIAQIBAT8BP//EABQQAQAAAAAAAAAAAAAAAAAAABD/2gAIAQEABj8Cf//EABcQAAMBAAAAAAAAAAAAAAAAAAABESH/2gAIAQEAAT8ha1suGSqn/9oADAMBAAIAAwAAABD73//EABcRAQEBAQAAAAAAAAAAAAAAAAEAESH/2gAIAQMBAT8Q1g5f/8QAFxEBAAMAAAAAAAAAAAAAAAAAAAERMf/aAAgBAgEBPxCk6//EABkQAAIDAQAAAAAAAAAAAAAAAAERACFBUf/aAAgBAQABPxAbA4ByArYcmphTac//2Q==",
+                "aspectRatio": 3.683453237410072,
+                "src": "/static/ea201780e61bd41cb075462f43e7d2bb/097fa/breadcrumbs_img_1.jpg",
+                "srcSet": "/static/ea201780e61bd41cb075462f43e7d2bb/89b9c/breadcrumbs_img_1.jpg 512w,\n/static/ea201780e61bd41cb075462f43e7d2bb/26852/breadcrumbs_img_1.jpg 1024w,\n/static/ea201780e61bd41cb075462f43e7d2bb/097fa/breadcrumbs_img_1.jpg 1920w",
+                "sizes": "(max-width: 1920px) 100vw, 1920px"
+              }
+            }
+          },
+          "heading": "What we do",
+          "subheading": "Introducing QZulu Token, the gateway to participating in the empowerment and transformation of more than 10 million people across more than 2 million hectares through advanced technology and economic development",
+          "mainpitch": {
+            "title": "Why Qzulu token",
+            "description": "An abundance of opportunities to catalyze positive economic transformation through Quantum Kingdom of Zululand directs our holistic focus in addressing these opportunities through the businesses we manage and the projects they undertake.\n"
+          },
+          "description": "Kaldi is the ultimate spot for coffee lovers who want to learn about their java’s origin and support the farmers that grew it. We take coffee production, roasting and brewing seriously and we’re glad to pass that knowledge to anyone.",
+          "intro": {
+            "blurbs": [
+              {
+                "image": {
+                  "childImageSharp": {
+                    "fluid": {
+                      "base64": "data:image/jpeg;base64,/9j/2wBDABALDA4MChAODQ4SERATGCgaGBYWGDEjJR0oOjM9PDkzODdASFxOQERXRTc4UG1RV19iZ2hnPk1xeXBkeFxlZ2P/2wBDARESEhgVGC8aGi9jQjhCY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2P/wgARCAALABQDASIAAhEBAxEB/8QAFwAAAwEAAAAAAAAAAAAAAAAAAAMEBf/EABYBAQEBAAAAAAAAAAAAAAAAAAECA//aAAwDAQACEAMQAAAB0k5dd4OIwf/EABkQAAMAAwAAAAAAAAAAAAAAAAABAgMRE//aAAgBAQABBQJXLLy6fViKGf/EABURAQEAAAAAAAAAAAAAAAAAAAAR/9oACAEDAQE/AUf/xAAVEQEBAAAAAAAAAAAAAAAAAAAAEf/aAAgBAgEBPwFX/8QAGBABAQADAAAAAAAAAAAAAAAAAAEQITH/2gAIAQEABj8CajiJj//EABsQAAICAwEAAAAAAAAAAAAAAAABETEQIUGR/9oACAEBAAE/IaRoTAzzEuN4OpOD/9oADAMBAAIAAwAAABBg7//EABgRAQEAAwAAAAAAAAAAAAAAAAEAEUFR/9oACAEDAQE/EHGiBy//xAAWEQADAAAAAAAAAAAAAAAAAAABEHH/2gAIAQIBAT8QFT//xAAdEAEAAwABBQAAAAAAAAAAAAABABEhMUFRYXHB/9oACAEBAAE/ENJY8a/YIcBRWBtBXkiRhbvvHfQBRAFADOnuf//Z",
+                      "aspectRatio": 1.7473118279569892,
+                      "src": "/static/3d9abc457adda9c3dd56b8979cd839b1/2f1b1/slider-1-qzulu-final.jpg",
+                      "srcSet": "/static/3d9abc457adda9c3dd56b8979cd839b1/0db2f/slider-1-qzulu-final.jpg 325w,\n/static/3d9abc457adda9c3dd56b8979cd839b1/8a438/slider-1-qzulu-final.jpg 650w,\n/static/3d9abc457adda9c3dd56b8979cd839b1/2f1b1/slider-1-qzulu-final.jpg 800w",
+                      "sizes": "(max-width: 800px) 100vw, 800px"
+                    }
+                  }
+                },
+                "text": "Empowering economic livelihood through next-generation technologies to create opportunity and self-sufficiency.\n"
+              },
+              {
+                "image": {
+                  "childImageSharp": {
+                    "fluid": {
+                      "base64": "data:image/jpeg;base64,/9j/2wBDABALDA4MChAODQ4SERATGCgaGBYWGDEjJR0oOjM9PDkzODdASFxOQERXRTc4UG1RV19iZ2hnPk1xeXBkeFxlZ2P/2wBDARESEhgVGC8aGi9jQjhCY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2P/wgARCAALABQDASIAAhEBAxEB/8QAGAAAAgMAAAAAAAAAAAAAAAAAAAQBAwX/xAAVAQEBAAAAAAAAAAAAAAAAAAAAAf/aAAwDAQACEAMQAAAB1pUZLQE//8QAGxAAAgEFAAAAAAAAAAAAAAAAAQIDABAREjH/2gAIAQEAAQUCaVQQc21DNHwV/8QAFBEBAAAAAAAAAAAAAAAAAAAAEP/aAAgBAwEBPwE//8QAFBEBAAAAAAAAAAAAAAAAAAAAEP/aAAgBAgEBPwE//8QAFhAAAwAAAAAAAAAAAAAAAAAAARAR/9oACAEBAAY/Ao6Q/wD/xAAZEAEBAAMBAAAAAAAAAAAAAAABABEhMbH/2gAIAQEAAT8hy+uZNiNkj5Scve4v/9oADAMBAAIAAwAAABBj/wD/xAAVEQEBAAAAAAAAAAAAAAAAAAABEP/aAAgBAwEBPxBn/8QAFhEBAQEAAAAAAAAAAAAAAAAAIQEQ/9oACAECAQE/EIuf/8QAGxABAAMBAAMAAAAAAAAAAAAAAQARMUEhgZH/2gAIAQEAAT8QE23gQFVDg7PAWvUME5tlRXd2x8mM/9k=",
+                      "aspectRatio": 1.7759562841530054,
+                      "src": "/static/34cad7d82c4b4b64785f5715082fc9ef/2f1b1/slider-2-qzulu-final.jpg",
+                      "srcSet": "/static/34cad7d82c4b4b64785f5715082fc9ef/0db2f/slider-2-qzulu-final.jpg 325w,\n/static/34cad7d82c4b4b64785f5715082fc9ef/8a438/slider-2-qzulu-final.jpg 650w,\n/static/34cad7d82c4b4b64785f5715082fc9ef/2f1b1/slider-2-qzulu-final.jpg 800w",
+                      "sizes": "(max-width: 800px) 100vw, 800px"
+                    }
+                  }
+                },
+                "text": "Transforming the Kingdom of Zululand and its people into hallmarks of economic success across Africa.\n"
+              },
+              {
+                "image": {
+                  "childImageSharp": {
+                    "fluid": {
+                      "base64": "data:image/jpeg;base64,/9j/2wBDABALDA4MChAODQ4SERATGCgaGBYWGDEjJR0oOjM9PDkzODdASFxOQERXRTc4UG1RV19iZ2hnPk1xeXBkeFxlZ2P/2wBDARESEhgVGC8aGi9jQjhCY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2P/wgARCAANABQDASIAAhEBAxEB/8QAFwAAAwEAAAAAAAAAAAAAAAAAAAMEBf/EABQBAQAAAAAAAAAAAAAAAAAAAAH/2gAMAwEAAhADEAAAAYbnoHVIhP/EAB0QAAEDBQEAAAAAAAAAAAAAAAIDERIAAQQUISP/2gAIAQEAAQUCG5Miv0SmL+OL0tiFf//EABURAQEAAAAAAAAAAAAAAAAAAAAR/9oACAEDAQE/AUf/xAAUEQEAAAAAAAAAAAAAAAAAAAAQ/9oACAECAQE/AT//xAAbEAACAwADAAAAAAAAAAAAAAAAARESIQJBof/aAAgBAQAGPwKRFjjGd4ISr6f/xAAcEAACAgIDAAAAAAAAAAAAAAABEQAhMZFBUYH/2gAIAQEAAT8hISKaxTndmtwgkIcOKVUpxPGG4VAdh7T/2gAMAwEAAgADAAAAEJsf/8QAFxEAAwEAAAAAAAAAAAAAAAAAAAERIf/aAAgBAwEBPxCja4f/xAAXEQADAQAAAAAAAAAAAAAAAAAAAREh/9oACAECAQE/EBSaf//EABsQAQADAAMBAAAAAAAAAAAAAAEAESExUWHx/9oACAEBAAE/EAS0otkCnnuMEjrsOX9hCMbp2vJvGgWB21kTZXe1BdFbWVsc4sJxqvJ//9k=",
+                      "aspectRatio": 1.4976958525345623,
+                      "src": "/static/9953c7c7dd007a302f20af7f39b38f83/2f1b1/slider-3-qzulu-final.jpg",
+                      "srcSet": "/static/9953c7c7dd007a302f20af7f39b38f83/0db2f/slider-3-qzulu-final.jpg 325w,\n/static/9953c7c7dd007a302f20af7f39b38f83/8a438/slider-3-qzulu-final.jpg 650w,\n/static/9953c7c7dd007a302f20af7f39b38f83/2f1b1/slider-3-qzulu-final.jpg 800w",
+                      "sizes": "(max-width: 800px) 100vw, 800px"
+                    }
+                  }
+                },
+                "text": "Strategically and dynamically partnered with the Zulu people to create employment, diversify industry, and deepen commercial ties.\n"
+              },
+              {
+                "image": {
+                  "childImageSharp": {
+                    "fluid": {
+                      "base64": "data:image/jpeg;base64,/9j/2wBDABALDA4MChAODQ4SERATGCgaGBYWGDEjJR0oOjM9PDkzODdASFxOQERXRTc4UG1RV19iZ2hnPk1xeXBkeFxlZ2P/2wBDARESEhgVGC8aGi9jQjhCY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2P/wgARCAAJABQDASIAAhEBAxEB/8QAFwAAAwEAAAAAAAAAAAAAAAAAAAIDBP/EABUBAQEAAAAAAAAAAAAAAAAAAAID/9oADAMBAAIQAxAAAAFKY1vLYTEP/8QAGhAAAgIDAAAAAAAAAAAAAAAAAAETMgIDEv/aAAgBAQABBQKRIlwOkxitrr//xAAWEQEBAQAAAAAAAAAAAAAAAAAAARL/2gAIAQMBAT8Bysf/xAAVEQEBAAAAAAAAAAAAAAAAAAAAEf/aAAgBAgEBPwGq/8QAGBABAAMBAAAAAAAAAAAAAAAAAAEQMYH/2gAIAQEABj8CYxLlf//EABwQAAICAgMAAAAAAAAAAAAAAAABESEQkWGxwf/aAAgBAQABPyFTqcrgTqloV1No9MTsP//aAAwDAQACAAMAAAAQcM//xAAWEQEBAQAAAAAAAAAAAAAAAAABABH/2gAIAQMBAT8QDkI5f//EABYRAQEBAAAAAAAAAAAAAAAAAAABIf/aAAgBAgEBPxCsw//EABoQAAMBAQEBAAAAAAAAAAAAAAABETFxsVH/2gAIAQEAAT8QhUms+hske0m3cQXONZo12N+vD3H/2Q==",
+                      "aspectRatio": 2.2108843537414966,
+                      "src": "/static/826bd1d662277de452a5f0c9c762db3e/2f1b1/slider-4-qzulu-final.jpg",
+                      "srcSet": "/static/826bd1d662277de452a5f0c9c762db3e/0db2f/slider-4-qzulu-final.jpg 325w,\n/static/826bd1d662277de452a5f0c9c762db3e/8a438/slider-4-qzulu-final.jpg 650w,\n/static/826bd1d662277de452a5f0c9c762db3e/2f1b1/slider-4-qzulu-final.jpg 800w",
+                      "sizes": "(max-width: 800px) 100vw, 800px"
+                    }
+                  }
+                },
+                "text": "Positive economic transformation cultivated by accomplished international partners and local work ethic."
+              },
+              {
+                "image": {
+                  "childImageSharp": {
+                    "fluid": {
+                      "base64": "data:image/jpeg;base64,/9j/2wBDABALDA4MChAODQ4SERATGCgaGBYWGDEjJR0oOjM9PDkzODdASFxOQERXRTc4UG1RV19iZ2hnPk1xeXBkeFxlZ2P/2wBDARESEhgVGC8aGi9jQjhCY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2P/wgARCAAJABQDASIAAhEBAxEB/8QAFQABAQAAAAAAAAAAAAAAAAAABAD/xAAWAQEBAQAAAAAAAAAAAAAAAAADAQL/2gAMAwEAAhADEAAAATij5qI8h//EABoQAAICAwAAAAAAAAAAAAAAAAECAAMQERL/2gAIAQEAAQUCdq+Q2oXMfP8A/8QAGBEAAgMAAAAAAAAAAAAAAAAAAAEDEiH/2gAIAQMBAT8Bk1lUf//EABgRAAIDAAAAAAAAAAAAAAAAAAABAhEh/9oACAECAQE/AYYi2f/EABcQAAMBAAAAAAAAAAAAAAAAAAAgITH/2gAIAQEABj8CykX/xAAbEAEAAgIDAAAAAAAAAAAAAAABACEQQRExUf/aAAgBAQABPyHlDU3CFr8inom0Mf/aAAwDAQACAAMAAAAQSM//xAAXEQEBAQEAAAAAAAAAAAAAAAABABFh/9oACAEDAQE/EAPpcL//xAAXEQADAQAAAAAAAAAAAAAAAAAAASFh/9oACAECAQE/EJkjY//EABwQAAIDAQADAAAAAAAAAAAAAAABESExQWFxgf/aAAgBAQABPxBBu6g+8olaGlSe+SSQfTfoaHp//9k=",
+                      "aspectRatio": 2.195945945945946,
+                      "src": "/static/ca583b0de34d046c813634f013eb5a5d/2f1b1/slider-5-qzulu-final.jpg",
+                      "srcSet": "/static/ca583b0de34d046c813634f013eb5a5d/0db2f/slider-5-qzulu-final.jpg 325w,\n/static/ca583b0de34d046c813634f013eb5a5d/8a438/slider-5-qzulu-final.jpg 650w,\n/static/ca583b0de34d046c813634f013eb5a5d/2f1b1/slider-5-qzulu-final.jpg 800w",
+                      "sizes": "(max-width: 800px) 100vw, 800px"
+                    }
+                  }
+                },
+                "text": "Inspiring economic dynamism across a broad range of industries through sustainable best practices."
+              }
+            ],
+            "heading": "What we offer",
+            "description": "Kaldi is the ultimate spot for coffee lovers who want to learn about their java’s origin and support the farmers that grew it. We take coffee production, roasting and brewing seriously and we’re glad to pass that knowledge to anyone. This is an edit via identity...\n"
+          }
+        }
+      }
+    },
+    "pageContext": { "id": "e76479f9-fc48-5e39-9926-0b36263dd780" }
+  }
+}
