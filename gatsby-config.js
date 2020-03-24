@@ -1,5 +1,5 @@
 module.exports = {
-  pathPrefix: '/qzulu',
+  // pathPrefix: '/qzulu',
   siteMetadata: {
     title: 'Gatsby + Netlify CMS Starter',
     description:
