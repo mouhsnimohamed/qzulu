@@ -20,9 +20,8 @@ export const IndexPageTemplate = ({
           !!image.childImageSharp ? image.childImageSharp.fluid.src : image
         })`,
         backgroundPosition: `top left`
-        // backgroundAttachment: `fixed`
       }}>
-      <div
+      {/* <div
         style={{
           display: 'flex',
           height: '150px',
@@ -31,23 +30,10 @@ export const IndexPageTemplate = ({
           alignItems: 'left',
           flexDirection: 'column'
         }}>
-        {/* <h1
-          className="has-text-weight-bold is-size-3-mobile is-size-2-tablet is-size-1-widescreen"
-          style={{
-            boxShadow:
-              'rgb(255, 68, 0) 0.5rem 0px 0px, rgb(255, 68, 0) -0.5rem 0px 0px',
-            backgroundColor: 'rgb(255, 68, 0)',
-            color: 'white',
-            lineHeight: '1',
-            padding: '0.25em',
-          }}
-        >
-          {title}
-        </h1> */}
         <h1 className="has-text-weight-bold is-size-5-mobile is-size-5-tablet is-size-4-widescreen intro-title">
           {subheading}
         </h1>
-      </div>
+      </div> */}
     </div>
     <section className="section section--gradient">
       <div className="container">
@@ -57,11 +43,14 @@ export const IndexPageTemplate = ({
               <div className="content">
                 <div className="content">
                   <div className="tile">
+                    <h1 className="title">{subheading}</h1>
+                  </div>
+                  {/* <div className="tile">
                     <h1 className="title">{mainpitch.title}</h1>
                   </div>
                   <div className="tile">
                     <h3 className="subtitle">{mainpitch.description}</h3>
-                  </div>
+                  </div> */}
                 </div>
 
                 <h3 className="has-text-weight-semibold is-size-2">

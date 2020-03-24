@@ -10,6 +10,7 @@ export const OurValuesTemplate = ({ title, description, image, ourValues }) => {
       <div
         className="full-width-image-container margin-top-0"
         style={{
+          backgroundPosition: '100% 100%',
           backgroundImage: `url(${
             !!image.childImageSharp ? image.childImageSharp.fluid.src : image
           })`
