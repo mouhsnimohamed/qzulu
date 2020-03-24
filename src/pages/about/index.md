@@ -1,7 +1,7 @@
 ---
 templateKey: about-page
 path: /about
-title: About QZulu
+title: ' '
 image: /img/about-us-qzulu-final.jpg
 ImagePage: /img/content_image_4.jpg
 imagePage: /img/content_image_4.jpg
