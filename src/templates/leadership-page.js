@@ -45,9 +45,7 @@ export const LeadershipPageTemplate = ({
 LeadershipPageTemplate.propTypes = {
   title: PropTypes.string.isRequired,
   content: PropTypes.string,
-  heading: PropTypes.string,
-  image: PropTypes.oneOfType([PropTypes.object, PropTypes.string]),
-  // imagePage: PropTypes.oneOfType([PropTypes.object, PropTypes.string]),
+  banner: PropTypes.oneOfType([PropTypes.object, PropTypes.string]),
   contentComponent: PropTypes.func
 };
 
@@ -58,9 +56,7 @@ const LeadershipPage = ({ data }) => {
     <Layout>
       <LeadershipPageTemplate
         contentComponent={HTMLContent}
-        // imagePage={post.frontmatter.imagePage}
         image={post.frontmatter.image}
-        heading={post.frontmatter.heading}
         title={post.frontmatter.title}
         content={post.html}
       />
@@ -79,10 +75,9 @@ export const LeadershipPageQuery = graphql`
     markdownRemark(id: { eq: $id }) {
       html
       frontmatter {
-        title
-        image {
+        banner {
           childImageSharp {
-            fluid(maxWidth: 2048, quality: 100) {
+            fluid(maxWidth: 1900, quality: 100) {
               ...GatsbyImageSharpFluid
             }
           }
