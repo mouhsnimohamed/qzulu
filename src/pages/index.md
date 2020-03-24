@@ -1,7 +1,6 @@
 ---
 templateKey: index-page
-title: Great coffee with a conscience
-image: /img/breadcrumbs_img_1.jpg
+title: ' '
 heading: What we do
 subheading: >-
   Introducing QZulu Token, the gateway to participating in the empowerment and
@@ -58,6 +57,7 @@ main:
   image3:
     alt: Coffee beans
     image: /img/products-grid1.jpg
+image: /img/breadcrumbs_img_1.jpg
 description: >-
   Kaldi is the ultimate spot for coffee lovers who want to learn about their
   java’s origin and support the farmers that grew it. We take coffee production,
