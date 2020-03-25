@@ -175,7 +175,21 @@ collections:
             }
           - { label: Title, name: title, widget: string }
           - { label: 'Body', name: 'body', widget: 'markdown' }
-      # - file: 'src/pages/products/index.md'
+      - file: 'src/pages/deployment-ready/index.md'
+        label: 'Deployement Ready'
+        name: 'DeployementReady'
+        fields:
+          - {
+              label: 'Template Key',
+              name: 'templateKey',
+              widget: 'hidden',
+              default: 'deployment-ready-page',
+            }
+          - { label: Title, name: title, widget: string }
+          - { label: Banner, name: banner, widget: image }
+          - { label: Image, name: image, widget: image }
+          - { label: 'Body', name: 'body', widget: 'markdown' }
+          # - file: 'src/pages/products/index.md'
       #   label: 'Products Page'
       #   name: 'products'
       #   fields:
