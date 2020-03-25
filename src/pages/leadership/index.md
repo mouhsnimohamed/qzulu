@@ -15,16 +15,21 @@ members:
   - name: Prince Buzabazi Zulu
     function: Co-Chair Super Kingdom
     bio: >-
+
       Son of King Goodwill Zwelithini kaBhekuzulu reigning King of the Zulu
       Nation
+
 
       Dedicated to improving the lives of the constituents of the Zulu Nation
     image: /img/prince-qzulu-final.jpg
   - function: Amaris CEO & DTI ASIA Holdings CEO
-    bio: |
+    bio: |-
       Former Singapore Government CIO
+
       Managed e-Government initiative
+
       TradeNet: Harvard C/S
+
       Spearheaded Singapore to No 1 SmartNation
     image: /img/james-kang-qzulu-final.jpg
     name: James Kang
