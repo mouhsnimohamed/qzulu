@@ -8,7 +8,9 @@ members:
     function: 'Founder of DTI Holdings and QAC, Chair & CEO'
     bio: |
       Co-chair Super Kingdom
+
       Quantum technologies, AI, Blockchain, Smart Nano Particles & Graphene
+
       Quantum technology scientist
   - name: Prince Buzabazi Zulu
     function: Co-Chair Super Kingdom
@@ -19,9 +21,11 @@ members:
       Dedicated to improving the lives of the constituents of the Zulu Nation
     image: /img/prince-qzulu-final.jpg
   - function: Amaris CEO & DTI ASIA Holdings CEO
-    bio: >
-      Former Singapore Government initiative TradeNet: Harvard C/S Spearheaded
-      Singapore to No 1 SmartNation
+    bio: |
+      Former Singapore Government CIO
+      Managed e-Government initiative
+      TradeNet: Harvard C/S
+      Spearheaded Singapore to No 1 SmartNation
     image: /img/james-kang-qzulu-final.jpg
     name: James Kang
   - function: Co-Founder and Chief Scientific Officer
