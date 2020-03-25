@@ -26,8 +26,10 @@ members:
 
       Dedicated to improving the lives of the constituents of the Zulu Nation
     image: /img/prince-qzulu-final.jpg
-  - function: Amaris CEO & DTI ASIA Holdings CEO
+  - function: ' '
     bio: |-
+      Amaris CEO & DTI ASIA Holdings CEO
+
       Former Singapore Government CIO
 
       Managed e-Government initiative
@@ -37,8 +39,9 @@ members:
       Spearheaded Singapore to No 1 SmartNation
     image: /img/james-kang-qzulu-final.jpg
     name: James Kang
-  - function: Co-Founder and Chief Scientific Officer
+  - function: ' '
     bio: |-
+      Co-Founder and Chief Scientific Officer
       Hatsopoulos Professor of Mechanical Engineering at MIT
       Fellow of the American Institute for Medical and Biological Engineering
       Has over 470 publications and over 150 issued and pending patents
