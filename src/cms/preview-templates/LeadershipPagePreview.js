@@ -2,13 +2,17 @@ import React from 'react';
 import PropTypes from 'prop-types';
 import { LeadershipPageTemplate } from '../../templates/leadership-page';
 
-const LeadershipPagePreview = ({ entry, widgetFor }) => (
-  <LeadershipPageTemplate
-    banner={entry.getIn(['data', 'banner'])}
-    members={entry.getIn(['data', 'members'])}
-    content={widgetFor('body')}
-  />
-);
+const LeadershipPagePreview = ({ entry, widgetFor }) => {
+  const data = entry.getIn(['data']).toJS();
+  console.log(data);
+  return (
+    <LeadershipPageTemplate
+      banner={data.banner}
+      members={data.members || []}
+      content={widgetFor('body')}
+    />
+  );
+};
 
 LeadershipPagePreview.propTypes = {
   entry: PropTypes.shape({
