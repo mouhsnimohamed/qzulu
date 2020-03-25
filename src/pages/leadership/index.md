@@ -5,8 +5,10 @@ banner: /img/our-values-qzulu-final.jpg
 members:
   - image: /img/faiz-chowdhury-qzulu-final.jpg
     name: 'Faiz Chowdhury '
-    function: 'Founder of DTI Holdings and QAC, Chair & CEO'
+    function: ' '
     bio: |
+      Founder of DTI Holdings and QAC, Chair & CEO
+
       Co-chair Super Kingdom
 
       Quantum technologies, AI, Blockchain, Smart Nano Particles & Graphene
