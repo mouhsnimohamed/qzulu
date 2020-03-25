@@ -1,7 +1,7 @@
 ---
-templateKey: deployment-ready-page
-path: /deployment-ready
-title: Our Businesses | Deployment Ready
+templateKey: future-deployment-page
+path: /future-deployment
+title: Our Businesses | Future Deployment
 banner: /img/breadcrumbs_img_3.jpg
 image: /img/breadcrumbs_img_3.jpg
 ---

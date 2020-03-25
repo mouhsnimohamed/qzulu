@@ -1,7 +1,7 @@
 import React from 'react';
 import PropTypes from 'prop-types';
 import Layout from '../components/Layout';
-import HTMLContent from '../components/Content';
+import { HTMLContent } from '../components/Content';
 import PreviewCompatibleImage from '../components/PreviewCompatibleImage';
 
 export const ContentPageTemplate = ({ title, banner, image, content }) => {
@@ -28,9 +28,17 @@ export const ContentPageTemplate = ({ title, banner, image, content }) => {
           </div>
         )}
         <section className="section section--gradient">
-          <div className="container">
-            {image && <PreviewCompatibleImage imageInfo={{ image }} />}
-            <PageContent className="content" content={content} />
+          <div className="container content">
+            <div className="columns is-multiline">
+              <div className="column is-8 is-offset-2">
+                <div className="section">
+                  {image && <PreviewCompatibleImage imageInfo={{ image }} />}
+                </div>
+              </div>
+              <div className="column is-10 is-offset-1">
+                <PageContent className="content" content={content} />
+              </div>
+            </div>
           </div>
         </section>
       </div>
