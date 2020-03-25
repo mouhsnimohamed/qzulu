@@ -25,7 +25,7 @@ members:
     image: /img/james-kang-qzulu-final.jpg
     name: James Kang
   - function: Co-Founder and Chief Scientific Officer
-    bio: |
+    bio: |-
       Hatsopoulos Professor of Mechanical Engineering at MIT.
       Fellow of the American Institute for Medical and Biological Engineering.
       Has over 470 publications and over 150 issued and pending patents.
