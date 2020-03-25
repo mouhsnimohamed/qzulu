@@ -9,6 +9,7 @@ $primary: $kaldi-red
 $primary-invert: $kaldi-red-invert
 $body-color: #333
 $black: #17191c
+$navbar-height: 4.25rem
 
 .navbar .navbar-menu
   box-shadow:none !important
@@ -312,11 +313,15 @@ $menu-label-color: $white-ter
       text-transform: uppercase;
       letter-spacing: 2px;
 
+.navbar.is-dark
+.navbar-end > .navbar-item
+  margin: 0 4px;
 
-@import "~bulma"
+@import "bulma"
 
 
 // responsiveness
+
 +tablet-only
   .blog-list-item .featured-thumbnail
     flex-basis: 50%;

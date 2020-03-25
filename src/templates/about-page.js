@@ -1,7 +1,6 @@
 import React from 'react';
 import PropTypes from 'prop-types';
 import { graphql } from 'gatsby';
-import PreviewCompatibleImage from '../components/PreviewCompatibleImage';
 import Layout from '../components/Layout';
 import Content, { HTMLContent } from '../components/Content';
 
@@ -29,7 +28,6 @@ export const AboutPageTemplate = ({
       </div>
       <section className="section section--gradient">
         <div className="container">
-          {/* <PreviewCompatibleImage imageInfo={{ image: imagePage }} /> */}
           <div className="section">
             <h2 className="title is-size-2 has-text-weight-bold is-bold-light">
               {heading}
@@ -47,7 +45,6 @@ AboutPageTemplate.propTypes = {
   content: PropTypes.string,
   heading: PropTypes.string,
   image: PropTypes.oneOfType([PropTypes.object, PropTypes.string]),
-  // imagePage: PropTypes.oneOfType([PropTypes.object, PropTypes.string]),
   contentComponent: PropTypes.func
 };
 
@@ -58,7 +55,6 @@ const AboutPage = ({ data }) => {
     <Layout>
       <AboutPageTemplate
         contentComponent={HTMLContent}
-        // imagePage={post.frontmatter.imagePage}
         image={post.frontmatter.image}
         heading={post.frontmatter.heading}
         title={post.frontmatter.title}

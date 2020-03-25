@@ -34,7 +34,7 @@ const Navbar = class extends React.Component {
   render() {
     return (
       <nav
-        className="navbar is-transparent"
+        className="navbar is-dark"
         role="navigation"
         aria-label="main-navigation">
         <div className="container">
@@ -55,7 +55,7 @@ const Navbar = class extends React.Component {
           <div
             id="navMenu"
             className={`navbar-menu ${this.state.navBarActiveClass}`}>
-            <div className="navbar-start has-text-centered">
+            <div className="navbar-end has-text-centered">
               <Link className="navbar-item" to="/">
                 Home
               </Link>
@@ -65,18 +65,37 @@ const Navbar = class extends React.Component {
               <Link className="navbar-item" to="/our-values">
                 Our Values
               </Link>
-              {/* <Link className="navbar-item" to="/products">
-                Products
-              </Link>*/}
+              <div className="navbar-item has-dropdown is-hoverable">
+                <span className="navbar-link">Our Businesses</span>
+                <div className="navbar-dropdown">
+                  <Link className="navbar-item" to="/deployment-ready">
+                    Deployment-Ready
+                  </Link>
+                  <Link className="navbar-item" to="/future-deployment">
+                    Future Deployment
+                  </Link>
+                </div>
+              </div>
               <Link className="navbar-item" to="/leadership">
                 Our Leadership
               </Link>
+              <div className="navbar-item has-dropdown is-hoverable">
+                <span className="navbar-link">Investors</span>
+                <div className="navbar-dropdown">
+                  <Link className="navbar-item" to="/participate">
+                    Participate
+                  </Link>
+                  <Link className="navbar-item" to="/risks">
+                    Risks
+                  </Link>
+                  <Link className="navbar-item" to="/strategy">
+                    Exit Strategy
+                  </Link>
+                </div>
+              </div>
               <Link className="navbar-item" to="/contact">
                 Contact
               </Link>
-              {/* <Link className="navbar-item" to="/contact/examples">
-                Form Examples
-              </Link> */}
             </div>
             {/* <div className="navbar-end has-text-centered">
               <a
