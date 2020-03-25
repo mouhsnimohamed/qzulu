@@ -60,7 +60,7 @@ const Footer = class extends React.Component {
                 <section>
                   <ul className="menu-list">
                     <li>
-                      <Link className="navbar-item" to="/terms">
+                      <Link className="navbar-item" to="/privacy-policy">
                         Privacy Policy
                       </Link>
                     </li>
