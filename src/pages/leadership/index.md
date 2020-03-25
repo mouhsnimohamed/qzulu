@@ -26,7 +26,7 @@ members:
     name: James Kang
   - function: Co-Founder and Chief Scientific Officer
     bio: |-
-      Hatsopoulos Professor of Mechanical Engineering at MIT omar.
+      Hatsopoulos Professor of Mechanical Engineering at MIT.
       Fellow of the American Institute for Medical and Biological Engineering.
       Has over 470 publications and over 150 issued and pending patents.
       Founder or co-founder over 22 companies.
