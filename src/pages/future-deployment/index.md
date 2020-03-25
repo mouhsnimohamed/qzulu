@@ -5,27 +5,24 @@ title: Our Businesses | Future Deployment
 banner: /img/breadcrumbs_img_3.jpg
 image: /img/breadcrumbs_img_3.jpg
 ---
+In addition to the deployment-ready solutions that our businesses are ready to implement now, there are a variety of exciting technologies and advanced solutions being developed for future deployment across a spectrum of industries.
 
-There is a wide range of commercial opportunities that we are addressing across many industries through our Joint Venture, and these commercial opportunities are the means by which we are incorporating and deploying our dynamic Quantum technologies in the province of KwaZulu Natal.
+These technologies and solutions have evolved from other technologies and solutions that our teams have developed over the past decades, both in the private and public sectors.The future deployment of these advanced technologies and solutions will achieve many objectives, including the establishment of the Ingonyama region as an example of advanced digital enablement and success.
 
-Although our primary focus involves the communities inhabited by the millions of residents of KwaZulu Natal, the economic and commercial impacts of our business activities are felt across South Africa with even broader positive implications for the African continent and even internationally.This is because our businesses are focused on producing new goods and services, and improving the existing goods and services already produced in these communities.
+These enhanced solutions will support existing commercial enterprises across KwaZulu Natal, and position the Kingdom of Zululand to become recognized as a regional and continental leader.Moreover, these technologies will expand and strengthen the types of services that can be introduced and rolled out across the banking, payments, and financial services industries in sub-Saharan African.
 
-By expanding and improving these local economies through our value-added technologies, we empower these communities to develop stronger commercial ties across South Africa, broaden trading relationships across the sub-Saharan region, positively contribute to the ongoing transformation of the economies of the African continent, and deepen the international trade ties that reward the export sector.
+Some of our companies’ solutions for future deployments include the following:
 
-Some of our companies’ deployment-ready solutions and their business activities include the following:
+**Q-Bank**
 
-**Q-Farm**
+The residents of KwaZulu Natal may be underserved by traditional banking channels and financial institutions.The financial technology (“fintech”) industry focuses quite significantly on addressing opportunities involving the so-called underbanked and underserved.Older financial institutions have generally been created atop inflexible technology stacks developed in older programming languages.In contrast, our revolutionary technology solutions leverage the power of mobile technologies such as smartphones and tablets, resulting in low-friction, consumer-centric solutions that reduce barriers and render it easier to consumer banking and financial services.
 
-Our Q-Farms initiative will empower more than 25,000 individual farmers across the Kingdom of Zululand by incorporating state-of-the-art farming technologies, resulting in new agricultural opportunities and enhanced farming skills.This will allow local farmers to play a more prominent role in the Quantum marketplace.
+**Q-Student**
 
-**Q-Energy**
+One of the many strengths of our Joint Venture involves the array of highly-accomplished and world-renowned educators, researchers, professors, and other members of academia who contribute significantly to their respective fields, industries, and areas of interest.Our team members are associated with some of the most highly-acclaimed and advanced universities, colleges, laboratories, and research centers in the United States and internationally, and these educational and research environments are home to some of the greatest achievements across many disciplines and fields.
 
-Our Q-Energy initiative will contribute to the Kingdom’s sustainability by providing renewable energy resources based on proprietary technologies derived from our diverse commercial sector experience, research, and academia.These proprietary technologies will foster energy independence through optimally-engineered solutions that exceed the most demanding standards of the renewable energy sector.
+Our Q-Student initiative is designed to unlock and avail access to education and employment opportunities for youth in the Ingonyama region so that they can actively participate in the economy, strengthening their futures and abilities to contribute to the economic vitality of KwaZulu-Natal. Through affiliations with the Massachusetts Institute of Technology’s [MICA](https://bioinstrumentation.mit.edu/mica) program, participants will be able to access a hands-on, data-driven STEM education.
 
-**B.E.S.T. Joint Venture**
+**Q-Fin**
 
-Quantum Age Corporation and Biomass Energy Sustainable Technologies (B.E.S.T.) have structured a Joint Venture agreement to harvest invasive species of wood within the Ingonyama region.These woods will be exported under existing B.E.S.T. offtake agreements, and will increase the supply of woods chips for energy generation in South Africa.Additionally, this will result in the increased beneficiation of wood chips and wood-related products, resulting in more value-added products.
-
-**Q-Taxi**
-
-Our Q-Taxi initiative involves a systematic strategy to replace taxis and other shared urban vehicles that operate on fossil fuels and natural gas with electric vehicles that have flash charge and solar power technology.By modernizing these types of fleets, Q-Taxi will be able to harness the power of the most environmentally-friendly transportation modalities across the industry.
+The evolution of digital technologies during the past ten-to-fifteen years has accelerated rapidly, resulting in disintermediation in the provision of many financial services.Technologies such as blockchains, also known as distributed ledgers, have ushered in an era of digital finance that has promoted greater financial inclusion.Q-Fin represents a range of technology solutions that facilitate compliant digital finance, leading to greater access to the capital markets and expanded relationships with other financial industry participants.
