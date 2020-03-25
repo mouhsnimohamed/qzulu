@@ -15,8 +15,10 @@ members:
 
       Quantum technology scientist
   - name: Prince Buzabazi Zulu
-    function: Co-Chair Super Kingdom
+    function: ' '
     bio: >-
+      Co-Chair Super Kingdom
+
 
       Son of King Goodwill Zwelithini kaBhekuzulu reigning King of the Zulu
       Nation
