@@ -26,15 +26,14 @@ members:
     name: James Kang
   - function: Co-Founder and Chief Scientific Officer
     bio: |-
-      Hatsopoulos Professor of Mechanical Engineering at MIT.
+      Hatsopoulos Professor of Mechanical Engineering at MIT `\r\n`.
       Fellow of the American Institute for Medical and Biological Engineering.
       Has over 470 publications and over 150 issued and pending patents.
-      Founder or co-founder over 22 companies.
+      Founder or co-founder over 22 companies oooo.
     image: /img/professor-ian-hunter-qzulu-final.jpg
     name: 'PROF. Ian Hunter, PhD'
 ---
-
-In addition to the communities we serve, our greatest assets include our employees and their families. Our team is comprised of world-renowned contributors who are accomplished in their respective fields including government leadership, science, technology, medicine, engineering, finance, banking, the law, and much more.
+In addition to the communities we serve, our greatest assets include our employees and their families. Our team is comprised of world-renowned contributors who are accomplished in their respective fields including government leadership, science, technology, medicine, engineering, finance, banking, the law, and much more. 
 
 We are extremely grateful to His Majesty King Goodwill Zwelithini kaBhekuzulu for his vision related to the economic and financial empowerment of the people of the Kingdom of Zululand, and for the enablement of the Joint Venture that will allow us to collectively achieve this success.
 
