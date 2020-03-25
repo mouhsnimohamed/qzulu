@@ -24,13 +24,14 @@ members:
       Singapore to No 1 SmartNation
     image: /img/james-kang-qzulu-final.jpg
     name: James Kang
-  - function: Copywriter
-    bio: >-
-      Contrary to popular belief, Lorem Ipsum is not simply random text. It has
-      roots in a piece of classical Latin literature from 45 BC, making it over
-      2000 years old. Richard McClintock.
+  - function: Co-Founder and Chief Scientific Officer
+    bio: |
+      Hatsopoulos Professor of Mechanical Engineering at MIT
+      Fellow of the American Institute for Medical and Biological Engineering
+      Has over 470 publications and over 150 issued and pending patents
+      Founder or co-founder over 22 companies
     image: /img/professor-ian-hunter-qzulu-final.jpg
-    name: 'Professor Ian Hunter '
+    name: 'PROF. Ian Hunter, PhD'
 ---
 
 In addition to the communities we serve, our greatest assets include our employees and their families. Our team is comprised of world-renowned contributors who are accomplished in their respective fields including government leadership, science, technology, medicine, engineering, finance, banking, the law, and much more.
