@@ -18,11 +18,10 @@ members:
 
       Dedicated to improving the lives of the constituents of the Zulu Nation
     image: /img/prince-qzulu-final.jpg
-  - function: Sales Manager
-    bio: >-
-      Contrary to popular belief, Lorem Ipsum is not simply random text. It has
-      roots in a piece of classical Latin literature from 45 BC, making it over
-      2000 years old.
+  - function: Amaris CEO & DTI ASIA Holdings CEO
+    bio: >
+      Former Singapore Government initiative TradeNet: Harvard C/S Spearheaded
+      Singapore to No 1 SmartNation
     image: /img/james-kang-qzulu-final.jpg
     name: James Kang
   - function: Copywriter
