@@ -3,7 +3,7 @@ templateKey: future-deployment-page
 path: /future-deployment
 title: Our Businesses | Future Deployment
 banner: /img/breadcrumbs_img_3.jpg
-image: /img/breadcrumbs_img_3.jpg
+image: /img/content_image_4.jpg
 ---
 In addition to the deployment-ready solutions that our businesses are ready to implement now, there are a variety of exciting technologies and advanced solutions being developed for future deployment across a spectrum of industries.
 
