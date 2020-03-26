@@ -1,6 +1,8 @@
 ---
 heading: What we do
 templateKey: index-page
+title: ' '
+image: /img/qzulutoken-introduction-image.jpg
 subheading: >-
   Introducing QZulu Token, the gateway to participating in the empowerment and
   transformation of more than 10 million people across more than 2 million
@@ -12,7 +14,6 @@ mainpitch:
     through Quantum Kingdom of Zululand directs our holistic focus in addressing
     these opportunities through the businesses we manage and the projects they
     undertake.
-title: ' '
 intro:
   blurbs:
     - image: /img/slider-1-qzulu-final.jpg
@@ -57,7 +58,6 @@ main:
   image3:
     alt: Coffee beans
     image: /img/products-grid1.jpg
-image: /img/breadcrumbs_img_1.jpg
 description: >-
   Kaldi is the ultimate spot for coffee lovers who want to learn about their
   java’s origin and support the farmers that grew it. We take coffee production,
