@@ -1,7 +1,7 @@
 ---
 templateKey: leadership-page
 path: /leadership
-banner: /img/our-values-qzulu-final.jpg
+banner: /img/qzulutoken-leadership-image-file.jpg
 members:
   - image: /img/faiz-chowdhury-qzulu-final.jpg
     name: 'Faiz Chowdhury '
