@@ -5,31 +5,24 @@ banner: /img/qzulutoken-leadership-image-file.jpg
 members:
   - image: /img/faiz-chowdhury-qzulu-final.jpg
     name: 'Faiz Chowdhury '
-    function: ' '
+    function: ' Founder of DTI Holdings and QAC, Chair & CEO'
     bio: |
-      Founder of DTI Holdings and QAC, Chair & CEO
-
       Co-chair Super Kingdom
 
       Quantum technologies, AI, Blockchain, Smart Nano Particles & Graphene
 
       Quantum technology scientist
   - name: Prince Buzabazi Zulu
-    function: ' '
+    function: ' Co-Chair Super Kingdom'
     bio: >-
-      Co-Chair Super Kingdom
-
-
       Son of King Goodwill Zwelithini kaBhekuzulu reigning King of the Zulu
       Nation
 
 
       Dedicated to improving the lives of the constituents of the Zulu Nation
     image: /img/prince-qzulu-final.jpg
-  - function: ' '
+  - function: ' Amaris CEO & DTI ASIA Holdings CEO'
     bio: |-
-      Amaris CEO & DTI ASIA Holdings CEO
-
       Former Singapore Government CIO
 
       Managed e-Government initiative
@@ -39,9 +32,8 @@ members:
       Spearheaded Singapore to No 1 SmartNation
     image: /img/james-kang-qzulu-final.jpg
     name: James Kang
-  - function: ' '
+  - function: ' Co-Founder and Chief Scientific Officer'
     bio: |-
-      Co-Founder and Chief Scientific Officer
       Hatsopoulos Professor of Mechanical Engineering at MIT
       Fellow of the American Institute for Medical and Biological Engineering
       Has over 470 publications and over 150 issued and pending patents
