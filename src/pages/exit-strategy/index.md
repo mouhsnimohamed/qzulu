@@ -2,7 +2,7 @@
 templateKey: exit-strategy-page
 path: /exit-strategy
 title: Investors | Exit Strategy
-banner: /img/breadcrumbs_img_1.jpg
+banner: /img/breadcrumbs_img_3.jpg
 image: /img/exit-strategy-qzulu-final.jpg
 ---
 QZulu Incorporated is committed to developing the Joint Venture opportunity involving the Kingdom of Zululand.The opportunity presents a unique opportunity to positively impact the lives of more than ten million individuals, and to distribute the Company’s value-added technology and related products and services.
