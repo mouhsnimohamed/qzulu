@@ -2,28 +2,28 @@
 templateKey: participate-page
 path: /participate
 title: Investors | Participate
-banner: /img/breadcrumbs_img_3.jpg
-image: /img/breadcrumbs_img_3.jpg
+banner: /img/investor-participation-qzulu-final.jpg
+image: /img/content_image_4.jpg
 ---
+Investors are being provided with the opportunity to invest in the myriad opportunities and business activities provided by the Quantum Zulu Joint Venture.
 
-In addition to the deployment-ready solutions that our businesses are ready to implement now, there are a variety of exciting technologies and advanced solutions being developed for future deployment across a spectrum of industries.
+To facilitate such investment, a new corporation named QZulu Incorporated has been established in the State of Wyoming in the United States of America.QZulu Incorporated has authorized the issuance of a series of equity Securities, including the following:
 
-These technologies and solutions have evolved from other technologies and solutions that our teams have developed over the past decades, both in the private and public sectors.The future deployment of these advanced technologies and solutions will achieve many objectives, including the establishment of the Ingonyama region as an example of advanced digital enablement and success.
+\
+Series A: Common Shares – up to 500 million shares
 
-These enhanced solutions will support existing commercial enterprises across KwaZulu Natal, and position the Kingdom of Zululand to become recognized as a regional and continental leader.Moreover, these technologies will expand and strengthen the types of services that can be introduced and rolled out across the banking, payments, and financial services industries in sub-Saharan African.
+Series B: Preferred Shares – up to 200 million shares
 
-Some of our companies’ solutions for future deployments include the following:
 
-**Q-Bank**
 
-The residents of KwaZulu Natal may be underserved by traditional banking channels and financial institutions.The financial technology (“fintech”) industry focuses quite significantly on addressing opportunities involving the so-called underbanked and underserved.Older financial institutions have generally been created atop inflexible technology stacks developed in older programming languages.In contrast, our revolutionary technology solutions leverage the power of mobile technologies such as smartphones and tablets, resulting in low-friction, consumer-centric solutions that reduce barriers and render it easier to consumer banking and financial services.
+The Company has elected for some of these Securities to be issued in a digital format known as a Security Token, a cryptographically-generated asset derived from a blockchain network.
 
-**Q-Student**
+Offering documentation related to the marketing of these Security Tokens is being prepared to enable international investors and accredited investors in the United States to participate in this Security Token Offering.Regarding the latter, details will be provided by QZulu Incorporated regarding the exemptions from the registration requirements of the Securities Act of 1933.
 
-One of the many strengths of our Joint Venture involves the array of highly-accomplished and world-renowned educators, researchers, professors, and other members of academia who contribute significantly to their respective fields, industries, and areas of interest.Our team members are associated with some of the most highly-acclaimed and advanced universities, colleges, laboratories, and research centers in the United States and internationally, and these educational and research environments are home to some of the greatest achievements across many disciplines and fields.
+Investors who are interested to learn more are encouraged to contact the company to better understand the opportunity, and the means by which they can potentially participate in these investment opportunities.
 
-Our Q-Student initiative is designed to unlock and avail access to education and employment opportunities for youth in the Ingonyama region so that they can actively participate in the economy, strengthening their futures and abilities to contribute to the economic vitality of KwaZulu-Natal. Through affiliations with the Massachusetts Institute of Technology’s [MICA](https://bioinstrumentation.mit.edu/mica) program, participants will be able to access a hands-on, data-driven STEM education.
+These investment opportunities may potentially include a pre-sale or private-sale distribution period with incentivized pricing that may be unavailable during a broader investment period.
 
-**Q-Fin**
+Investors who invest in the Preferred Shares or Preferred Tokens may be subject to mandatory conversion(s) to the Company’s Common Shares in the future.
 
-The evolution of digital technologies during the past ten-to-fifteen years has accelerated rapidly, resulting in disintermediation in the provision of many financial services.Technologies such as blockchains, also known as distributed ledgers, have ushered in an era of digital finance that has promoted greater financial inclusion.Q-Fin represents a range of technology solutions that facilitate compliant digital finance, leading to greater access to the capital markets and expanded relationships with other financial industry participants.
+Additionally, the company is preparing to list and issue its Security Token Offering from a licensed and regulated platform in Asia, the details of which are also available from the company.
