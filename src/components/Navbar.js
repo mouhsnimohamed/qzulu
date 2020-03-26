@@ -33,10 +33,7 @@ const Navbar = class extends React.Component {
 
   render() {
     return (
-      <nav
-        className="navbar is-dark"
-        role="navigation"
-        aria-label="main-navigation">
+      <nav className="navbar" role="navigation" aria-label="main-navigation">
         <div className="container">
           <div className="navbar-brand">
             <Link to="/" className="logo" title="Logo">
@@ -88,7 +85,7 @@ const Navbar = class extends React.Component {
                   <Link className="navbar-item" to="/risks">
                     Risks
                   </Link>
-                  <Link className="navbar-item" to="/strategy">
+                  <Link className="navbar-item" to="/exit-strategy">
                     Exit Strategy
                   </Link>
                 </div>

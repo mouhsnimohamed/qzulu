@@ -9,7 +9,7 @@ const FutureDeployment = ({ data }) => {
   return (
     <ContentPageTemplate
       image={frontmatter.image}
-      banner={frontmatter.banner}
+      //banner={frontmatter.banner}
       title={frontmatter.title}
       content={html}
     />

@@ -9,13 +9,23 @@ export const TermsPageTemplate = ({ title, content, contentComponent }) => {
 
   return (
     <div className="content">
+      <div className="full-width-image-container margin-top-0 with-gradient-bg">
+        <div className="gradient-static-bg"></div>
+        <h4 className="gradient-title is-size-2 has-text-weight-normal">
+          Legal Staff
+        </h4>
+      </div>
       <section className="section section--gradient">
         <div className="container">
           <div className="section">
-            <h2 className="title is-size-1 has-text-weight-bold is-bold-light">
+            <h2 className="title is-size-1 has-text-centered has-text-weight-light is-uppercase mb-2">
               {title}
             </h2>
-            <PageContent className="content" content={content} />
+            <div className="columns">
+              <div className="column is-10 is-offset-1">
+                <PageContent className="content" content={content} />
+              </div>
+            </div>
           </div>
         </div>
       </section>

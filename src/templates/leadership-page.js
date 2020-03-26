@@ -23,8 +23,12 @@ export const LeadershipPageTemplate = ({
         }}></div>
       <section className="section section--gradient">
         <div className="container">
-          <PageContent className="content" content={content} />
-          <Members members={members} />
+          <div className="columns">
+            <div className="column is-10 is-offset-1">
+              <PageContent className="content" content={content} />
+              <Members members={members} />
+            </div>
+          </div>
         </div>
       </section>
     </div>

@@ -10,7 +10,7 @@ export const ContentPageTemplate = ({ title, banner, image, content }) => {
   return (
     <Layout>
       <div className="content">
-        {banner && (
+        {banner ? (
           <div
             className="full-width-image-container margin-top-0"
             style={{
@@ -24,6 +24,15 @@ export const ContentPageTemplate = ({ title, banner, image, content }) => {
               <h2 className="has-text-weight-bold is-size-1 intro-title intro-inline">
                 {title}
               </h2>
+            )}
+          </div>
+        ) : (
+          <div className="full-width-image-container margin-top-0 with-gradient-bg">
+            <div className="gradient-static-bg"></div>
+            {title && (
+              <h4 className="gradient-title is-size-2 has-text-weight-normal">
+                {title}
+              </h4>
             )}
           </div>
         )}
