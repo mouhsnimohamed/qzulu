@@ -3,7 +3,7 @@ templateKey: deployment-ready-page
 path: /deployment-ready
 title: Our Businesses | Deployment Ready
 banner: /img/breadcrumbs_img_3.jpg
-image: /img/breadcrumbs_img_3.jpg
+image: /img/content_image_4.jpg
 ---
 
 There is a wide range of commercial opportunities that we are addressing across many industries through our Joint Venture, and these commercial opportunities are the means by which we are incorporating and deploying our dynamic Quantum technologies in the province of KwaZulu Natal.
