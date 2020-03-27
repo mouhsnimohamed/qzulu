@@ -28,7 +28,6 @@ export const RisksQuery = graphql`
     markdownRemark(id: { eq: $id }) {
       html
       frontmatter {
-        filesList
         title
         image {
           childImageSharp {

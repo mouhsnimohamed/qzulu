@@ -9,9 +9,12 @@ export const ContentPageTemplate = ({
   banner,
   image,
   content,
-  downloadPDF = false
+  filesList,
+  downloadPDF
 }) => {
   const PageContent = HTMLContent;
+
+  console.log('filesList...', filesList);
 
   return (
     <Layout>
