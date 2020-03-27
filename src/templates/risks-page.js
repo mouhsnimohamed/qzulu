@@ -8,7 +8,7 @@ const Risks = ({ data }) => {
 
   return (
     <ContentPageTemplate
-      filesList={frontmatter.filesList}
+      filesList={frontmatter.filesList || undefined}
       image={frontmatter.image}
       banner={frontmatter.banner}
       title={frontmatter.title}
@@ -28,6 +28,9 @@ export const RisksQuery = graphql`
     markdownRemark(id: { eq: $id }) {
       html
       frontmatter {
+        filesList {
+          file
+        }
         title
         image {
           childImageSharp {
