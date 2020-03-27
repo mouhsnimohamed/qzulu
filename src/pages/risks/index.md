@@ -5,10 +5,9 @@ title: Investors | Risks
 banner: /img/breadcrumbs_img_5.jpg
 image: /img/risk-qzulu-final.jpg
 filesList:
-  - title: QZulu token website
+  - title: QZulu token website.
     file: /img/qzulu-token-website.pdf
-
-  - title: PDF de test
+  - title: PDF de test.
     file: /img/qzulu.pdf
 ---
 
