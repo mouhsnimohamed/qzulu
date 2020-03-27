@@ -2,7 +2,7 @@
 heading: What we do
 templateKey: index-page
 title: ' '
-image: /img/qzulutoken-introduction-image.jpg
+image: /img/qzulutoken-introduction-image-1600-500.png
 subheading: >-
   Introducing QZulu Token, the gateway to participating in the empowerment and
   transformation of more than 10 million people across more than 2 million
