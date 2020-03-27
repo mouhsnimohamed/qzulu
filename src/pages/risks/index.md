@@ -2,7 +2,7 @@
 templateKey: risks-page
 path: /risks
 title: Investors | Risks
-banner: /img/risk-qzulu-final-1920-520.jpg
+banner: /img/breadcrumbs_img_5.jpg
 image: /img/risk-qzulu-final.jpg
 filesList:
   - title: QZulu token website.
