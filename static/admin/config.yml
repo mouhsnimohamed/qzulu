@@ -233,6 +233,12 @@ collections:
           - { label: Banner, name: banner, widget: image }
           - { label: Image, name: image, widget: image }
           - { label: 'Body', name: 'body', widget: 'markdown' }
+          - {
+              label: Files list,
+              name: filesList,
+              widget: list,
+              fields: [{ label: File, name: file, widget: file }],
+            }
 
       - file: 'src/pages/exit-strategy/index.md'
         label: 'Exit Strategy'

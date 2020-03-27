@@ -4,7 +4,13 @@ import Layout from '../components/Layout';
 import { HTMLContent } from '../components/Content';
 import PreviewCompatibleImage from '../components/PreviewCompatibleImage';
 
-export const ContentPageTemplate = ({ title, banner, image, content }) => {
+export const ContentPageTemplate = ({
+  title,
+  banner,
+  image,
+  content,
+  downloadPDF = false
+}) => {
   const PageContent = HTMLContent;
 
   return (
@@ -46,9 +52,14 @@ export const ContentPageTemplate = ({ title, banner, image, content }) => {
               </div>
               <div className="column is-10 is-offset-1">
                 <PageContent className="content" content={content} />
-                <a download class="button is-primary" href="/static/qzulu.pdf">
-                  Download PDF
-                </a>
+                {downloadPDF && (
+                  <a
+                    download
+                    class="button is-primary"
+                    href="/static/qzulu.pdf">
+                    Download PDF
+                  </a>
+                )}
               </div>
             </div>
           </div>
