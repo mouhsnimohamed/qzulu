@@ -46,6 +46,9 @@ export const ContentPageTemplate = ({ title, banner, image, content }) => {
               </div>
               <div className="column is-10 is-offset-1">
                 <PageContent className="content" content={content} />
+                <a download class="button is-primary" href="/static/qzulu.pdf">
+                  Download PDF
+                </a>
               </div>
             </div>
           </div>

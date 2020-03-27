@@ -1,9 +1,9 @@
 module.exports = {
   // pathPrefix: '/qzulu',
   siteMetadata: {
-    title: 'Gatsby + Netlify CMS Starter',
+    title: 'Quantum Kingdom of Zululand',
     description:
-      'This repo contains an example business website that is built with Gatsby, and Netlify CMS.It follows the JAMstack architecture by using Git as a single source of truth, and Netlify for continuous deployment, and CDN distribution.'
+      'Our Quantum Kingdom of Zululand initiative is a strategic partnership that was established to transform the Ingonyama region of South Africa into a regional and continental hallmark of economic success.'
   },
   plugins: [
     'gatsby-plugin-react-helmet',
