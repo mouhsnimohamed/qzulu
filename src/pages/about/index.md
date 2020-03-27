@@ -5,7 +5,7 @@ title: ' '
 image: /img/about-us-qzulu-final.jpg
 ImagePage: /img/content_image_4.jpg
 imagePage: /img/content_image_4.jpg
-heading: ' '
+heading: ' About Quantum Kingdom of Zululand'
 ---
 Our Quantum Kingdom of Zululand initiative is a strategic partnership that was established to transform the Ingonyama region of South Africa into a regional and continental hallmark of economic success.
 
