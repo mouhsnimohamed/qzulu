@@ -55,13 +55,19 @@ export const ContentPageTemplate = ({
               </div>
               <div className="column is-10 is-offset-1">
                 <PageContent className="content" content={content} />
-                {downloadPDF && (
-                  <a
-                    download
-                    class="button is-primary"
-                    href="/static/qzulu.pdf">
-                    Download PDF
-                  </a>
+                {filesList && filesList.length && (
+                  <div className="buttons">
+                    {filesList.map(file => {
+                      return (
+                        <a
+                          download
+                          class="button is-primary"
+                          href={file.file.publicURL}>
+                          {file.title}
+                        </a>
+                      );
+                    })}
+                  </div>
                 )}
               </div>
             </div>
