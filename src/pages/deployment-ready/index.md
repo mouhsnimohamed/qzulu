@@ -3,7 +3,7 @@
 templateKey: deployment-ready-page
 path: /deployment-ready
 title: Our Businesses | Deployment Ready
-heading: >-
+introduction: >-
 There is a wide range of commercial opportunities that we are addressing
 across many industries through our Joint Venture, and these commercial
 opportunities are the means by which we are incorporating and deploying our
@@ -25,7 +25,7 @@ of the African continent, and deepen the international trade ties that reward
 the export sector.
 
 Some of our companies’ deployment-ready solutions and their business
-activities include the following:
+
 deploymentReady:
 
 - title: Q-Farm
