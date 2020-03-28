@@ -9,12 +9,9 @@ export const ContentPageTemplate = ({
   banner,
   image,
   content,
-  filesList,
-  downloadPDF
+  filesList
 }) => {
   const PageContent = HTMLContent;
-
-  console.log('filesList...', filesList);
 
   return (
     <Layout>
@@ -54,7 +51,7 @@ export const ContentPageTemplate = ({
                 </div>
               </div>
               <div className="column is-10 is-offset-1">
-                <PageContent className="content" content={content} />
+                <PageContent className="content mb-2" content={content} />
                 {filesList && filesList.length && (
                   <div className="buttons">
                     {filesList.map(file => {

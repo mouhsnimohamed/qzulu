@@ -186,9 +186,18 @@ collections:
               default: 'deployment-ready-page',
             }
           - { label: Title, name: title, widget: string }
-          - { label: Banner, name: banner, widget: image }
-          - { label: Image, name: image, widget: image }
-          - { label: 'Body', name: 'body', widget: 'markdown' }
+          - { label: Intro, name: intro, widget: text }
+          - {
+              label: 'deployment ready',
+              name: 'deploymentReady',
+              widget: 'list',
+              fields:
+                [
+                  { label: Title, name: title, widget: string },
+                  { label: Image, name: image, widget: image },
+                  { label: Description, name: description, widget: text },
+                ],
+            }
       - file: 'src/pages/future-deployment/index.md'
         label: 'Future Deployement'
         name: 'FutureDeployement'
@@ -200,9 +209,18 @@ collections:
               default: 'future-deploymenty-page',
             }
           - { label: Title, name: title, widget: string }
-          - { label: Banner, name: banner, widget: image }
-          - { label: Image, name: image, widget: image }
-          - { label: 'Body', name: 'body', widget: 'markdown' }
+          - { label: Intro, name: intro, widget: text }
+          - {
+              label: 'future deployment',
+              name: 'futureDeployment',
+              widget: 'list',
+              fields:
+                [
+                  { label: Title, name: title, widget: string },
+                  { label: Image, name: image, widget: image },
+                  { label: Description, name: description, widget: text },
+                ],
+            }
 
       - file: 'src/pages/participate/index.md'
         label: 'Participate'
