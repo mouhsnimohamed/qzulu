@@ -40,6 +40,25 @@ members:
       Founder or co-founder over 22 companies
     image: /img/professor-ian-hunter-qzulu-final.jpg
     name: 'PROF. Ian Hunter, PhD'
+  - image: /img/blair-baker-qzulu-final.jpg
+    name: Blair Baker
+    function: Function title
+    bio: |-
+      Hatsopoulos Professor of Mechanical Engineering at MIT
+      Fellow of the American Institute for Medical and Biological Engineering
+      test
+  - image: /img/mike-lim-qzulu-final.jpg
+    name: Mike Lim
+    function: Function of mike lim
+    bio: |-
+      mike-lim bio 
+      in multi lines
+  - image: /img/hans-de-villiers-qzulu-final.jpg
+    name: Hans DE Villiers
+    function: Hans DE Villiers function
+    bio: |-
+      Hans DE Villiers bio 
+      in multi lines
 ---
 In addition to the communities we serve, our greatest assets include our employees and their families. Our team is comprised of world-renowned contributors who are accomplished in their respective fields including government leadership, science, technology, medicine, engineering, finance, banking, the law, and much more. 
 
