@@ -186,7 +186,7 @@ collections:
               default: 'deployment-ready-page',
             }
           - { label: Title, name: title, widget: string }
-          - { label: Intro, name: intro, widget: text }
+          - { label: Intro, name: introduction, widget: text }
           - {
               label: 'deployment ready',
               name: 'deploymentReady',
