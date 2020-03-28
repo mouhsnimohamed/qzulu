@@ -1,6 +1,7 @@
 import React from 'react';
 import PropTypes from 'prop-types';
 import PreviewCompatibleImage from '../components/PreviewCompatibleImage';
+import Paragraph from './Paragraph';
 
 const BusinessFeatures = ({ blocks }) => (
   <div className="columns is-multiline">
@@ -13,7 +14,7 @@ const BusinessFeatures = ({ blocks }) => (
             </div>
           </div>
           <h2 className="is-size-3">{item.title}</h2>
-          <p>{item.description}</p>
+          <Paragraph p={item.description} />
         </section>
       </div>
     ))}

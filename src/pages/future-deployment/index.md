@@ -2,31 +2,7 @@
 templateKey: future-deployment-page
 path: /future-deployment
 title: Our Businesses | Future Deployment
-description: >-
-  In addition to the deployment-ready solutions that our businesses are ready to
-  implement now, there are a variety of exciting technologies and advanced
-  solutions being developed for future deployment across a spectrum of
-  industries..
-
-
-  These technologies and solutions have evolved from other technologies and
-  solutions that our teams have developed over the past decades, both in the
-  private and public sectors.The future deployment of these advanced
-  technologies and solutions will achieve many objectives, including the
-  establishment of the Ingonyama region as an example of advanced digital
-  enablement and success..
-
-
-  These enhanced solutions will support existing commercial enterprises across
-  KwaZulu Natal, and position the Kingdom of Zululand to become recognized as a
-  regional and continental leader.Moreover, these technologies will expand and
-  strengthen the types of services that can be introduced and rolled out across
-  the banking, payments, and financial services industries in sub-Saharan
-  African..
-
-
-  Some of our companies’ solutions for future deployments include the following:
-intro: >
+description: >
   In addition to the deployment-ready solutions that our businesses are ready to
   implement now, there are a variety of exciting technologies and advanced
   solutions being developed for future deployment across a spectrum of
@@ -64,6 +40,17 @@ futureDeployment:
       reduce barriers and render it easier to consumer banking and financial
       services.
     image: /img/q-bank-qzulu-final.jpg
+  - title: Q-Fin
+    description: >-
+      The evolution of digital technologies during the past ten-to-fifteen years
+      has accelerated rapidly, resulting in disintermediation in the provision
+      of many financial services.  Technologies such as blockchains, also known
+      as distributed ledgers, have ushered in an era of digital finance that has
+      promoted greater financial inclusion.  Q-Fin represents a range of
+      technology solutions that facilitate compliant digital finance, leading to
+      greater access to the capital markets and expanded relationships with
+      other financial industry participants.
+    image: /img/q-fin-qzulu-final.jpg
   - title: Q-Student
     description: >
       One of the many strengths of our Joint Venture involves the array of
@@ -85,15 +72,4 @@ futureDeployment:
       Technology’s MICA program, participants will be able to access a hands-on,
       data-driven STEM education.
     image: /img/q-student-qzulu-final.jpg
-  - title: Q-Fin
-    description: >-
-      The evolution of digital technologies during the past ten-to-fifteen years
-      has accelerated rapidly, resulting in disintermediation in the provision
-      of many financial services.  Technologies such as blockchains, also known
-      as distributed ledgers, have ushered in an era of digital finance that has
-      promoted greater financial inclusion.  Q-Fin represents a range of
-      technology solutions that facilitate compliant digital finance, leading to
-      greater access to the capital markets and expanded relationships with
-      other financial industry participants.
-    image: /img/q-fin-qzulu-final.jpg
 ---

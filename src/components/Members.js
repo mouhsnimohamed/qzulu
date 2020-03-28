@@ -6,9 +6,9 @@ import Paragraph from './Paragraph';
 
 const Members = ({ members }) => {
   return (
-    <div className="team-members columns">
+    <div className="team-members columns is-multiline">
       {members.map(member => (
-        <div className="member column" key={member.name}>
+        <div className="member column is-one-quarter" key={member.name}>
           <div className="has-text-centered">
             <PreviewCompatibleImage imageInfo={member} />
           </div>
