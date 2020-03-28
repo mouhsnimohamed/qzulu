@@ -5,18 +5,14 @@ import PreviewCompatibleImage from '../components/PreviewCompatibleImage';
 const BusinessFeatures = ({ blocks }) => (
   <div className="columns is-multiline">
     {blocks.map(item => (
-      <div key={item.text} className="column is-6">
+      <div key={item.title} className="column is-6">
         <section className="section">
           <div className="has-text-centered">
-            <div
-              style={{
-                width: '240px',
-                display: 'inline-block'
-              }}>
+            <div className="buseness-image">
               <PreviewCompatibleImage imageInfo={item} />
             </div>
           </div>
-          <h2 className="is-size-2">{item.title}</h2>
+          <h2 className="is-size-3">{item.title}</h2>
           <p>{item.description}</p>
         </section>
       </div>

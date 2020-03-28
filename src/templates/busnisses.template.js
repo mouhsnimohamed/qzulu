@@ -2,6 +2,7 @@ import React from 'react';
 import PropTypes from 'prop-types';
 import Layout from '../components/Layout';
 import BusinessFeatures from '../components/BusnissesFeatures';
+import Paragraph from '../components/Paragraph';
 
 export const BusnissesTemplate = ({ title, intro, blocks = [] }) => {
   return (
@@ -17,7 +18,7 @@ export const BusnissesTemplate = ({ title, intro, blocks = [] }) => {
         </div>
         <div className="columns is-multiline">
           <div className="column is-10 is-offset-1">
-            <p className="costum-p">{intro}</p>
+            <Paragraph p={intro} />
             {blocks && !!blocks.length && <BusinessFeatures blocks={blocks} />}
           </div>
         </div>

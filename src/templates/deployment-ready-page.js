@@ -9,7 +9,7 @@ const DeploymentReady = ({ data }) => {
   return (
     <BusnissesTemplate
       title={frontmatter.title}
-      intro={frontmatter.heading}
+      intro={frontmatter.description}
       blocks={frontmatter.deploymentReady}
     />
   );
@@ -26,6 +26,18 @@ export const DeploymentReadyQuery = graphql`
     markdownRemark(id: { eq: $id }) {
       frontmatter {
         title
+        description
+        deploymentReady {
+          description
+          image {
+            childImageSharp {
+              fluid(maxWidth: 600, quality: 100) {
+                ...GatsbyImageSharpFluid
+              }
+            }
+          }
+          title
+        }
       }
     }
   }

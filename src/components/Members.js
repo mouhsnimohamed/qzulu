@@ -1,7 +1,8 @@
-import React, { Fragment } from 'react';
+import React from 'react';
 
 import PropTypes from 'prop-types';
 import PreviewCompatibleImage from '../components/PreviewCompatibleImage';
+import Paragraph from './Paragraph';
 
 const Members = ({ members }) => {
   return (
@@ -14,16 +15,7 @@ const Members = ({ members }) => {
           <div className="text">
             <h4>{member.name}</h4>
             <h5>{member.function}</h5>
-            <p>
-              {member.bio.split('\n').map((item, key) => {
-                return (
-                  <Fragment key={key}>
-                    {item}
-                    <br />
-                  </Fragment>
-                );
-              })}
-            </p>
+            <Paragraph p={member.bio} />
           </div>
         </div>
       ))}

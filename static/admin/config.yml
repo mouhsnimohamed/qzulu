@@ -209,7 +209,7 @@ collections:
               default: 'future-deploymenty-page',
             }
           - { label: Title, name: title, widget: string }
-          - { label: Intro, name: intro, widget: text }
+          - { label: Intro, name: description, widget: text }
           - {
               label: 'future deployment',
               name: 'futureDeployment',
