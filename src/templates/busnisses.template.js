@@ -16,9 +16,11 @@ export const BusnissesTemplate = ({ title, intro, blocks = [] }) => {
             </h4>
           )}
         </div>
-        <div className="columns is-multiline">
+        <div className="columns">
           <div className="column is-10 is-offset-1">
-            <Paragraph p={intro} />
+            <section className="section">
+              <Paragraph p={intro} />
+            </section>
             {blocks && !!blocks.length && <BusinessFeatures blocks={blocks} />}
           </div>
         </div>

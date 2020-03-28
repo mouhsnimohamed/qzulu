@@ -33,21 +33,16 @@ export const IndexPageTemplate = ({ image, subheading, title, intro }) => (
     </div>
     <section className="section section--gradient">
       <div className="container">
-        <div className="section">
-          <div className="columns">
-            <div className="column is-10 is-offset-1">
-              <div className="content">
-                <div className="content">
-                  <div className="tile">
-                    <h1 className="title">{subheading}</h1>
-                  </div>
-                </div>
-
-                <h3 className="has-text-weight-semibold is-size-2">
-                  {intro.heading}
-                </h3>
-                <Slide slideItems={intro.blurbs} />
+        <div className="columns">
+          <div className="column is-10 is-offset-1 is-12-tablet">
+            <div className="content">
+              <div className="tile">
+                <h1 className="title">{subheading}</h1>
               </div>
+              <h3 className="has-text-weight-semibold is-size-2">
+                {intro.heading}
+              </h3>
+              <Slide slideItems={intro.blurbs} />
             </div>
           </div>
         </div>

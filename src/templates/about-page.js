@@ -27,12 +27,14 @@ export const AboutPageTemplate = ({
         </h2>
       </div>
       <section className="section section--gradient">
-        <div className="container">
-          <div className="section">
-            <h2 className="title is-size-2 has-text-weight-bold is-bold-light">
-              {heading}
-            </h2>
-            <PageContent className="content" content={content} />
+        <div className="container mb-2">
+          <div className="columns">
+            <div className="column is-10 is-offset-1 is-12-tablet">
+              <h2 className="title is-size-2 has-text-weight-bold is-bold-light">
+                {heading}
+              </h2>
+              <PageContent className="content" content={content} />
+            </div>
           </div>
         </div>
       </section>
