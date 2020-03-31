@@ -21,7 +21,7 @@ members:
 
       Dedicated to improving the lives of the constituents of the Zulu Nation
     image: /img/prince-qzulu-final.jpg
-  - function: ' Amaris CEO & DTI ASIA Holdings CEO'
+  - function: ' Amaris CEO & QAC Asia Holdings CEO'
     bio: |-
       Former Singapore Government CIO
 
@@ -42,23 +42,35 @@ members:
     name: 'PROF. Ian Hunter, PhD'
   - image: /img/blair-baker-qzulu-final.jpg
     name: Blair Baker
-    function: Function title
+    function: 'Chief Operating Officer, QAC'
     bio: |-
-      Hatsopoulos Professor of Mechanical Engineering at MIT
-      Fellow of the American Institute for Medical and Biological Engineering
-      test
+      Co-Founder of third-generation payments company
+      Served as a central banker in Asia
+
+      Wall Street career in capital markets
+      Managed billions of US dollars in market risk in credit and equity markets
   - image: /img/mike-lim-qzulu-final.jpg
     name: Mike Lim
-    function: Function of mike lim
-    bio: |-
-      mike-lim bio 
-      in multi lines
+    function: 'CEO, QAC Africa'
+    bio: >-
+      Founding member and CEO of UbiTrust
+
+      Co-founder and former CEO of TrustMarque SA, a UK IT company
+
+      Former Finance Director and International Business Director for Singapore
+      Network Services
+
+
+      Multiple directorial and board appointments across Asia, Africa, and North
+      America
   - image: /img/hans-de-villiers-qzulu-final.jpg
-    name: Hans DE Villiers
-    function: Hans DE Villiers function
+    name: Hans de Villiers
+    function: 'CMO, QAC Africa'
     bio: |-
-      Hans DE Villiers bio 
-      in multi lines
+      Founding member and Chief Business Development Officer of UbiTrust
+      Co-founder and former CEO of E-prove
+      Co-founder and former CEO of TrustMarque
+      Co-founded and former CEO of Improtech
 ---
 In addition to the communities we serve, our greatest assets include our employees and their families. Our team is comprised of world-renowned contributors who are accomplished in their respective fields including government leadership, science, technology, medicine, engineering, finance, banking, the law, and much more. 
 
