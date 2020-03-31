@@ -68,8 +68,8 @@ futureDeployment:
       education and employment opportunities for youth in the Ingonyama region
       so that they can actively participate in the economy, strengthening their
       futures and abilities to contribute to the economic vitality of
-      KwaZulu-Natal.  Through affiliations with the Massachusetts Institute of
-      Technology’s MICA program, participants will be able to access a hands-on,
-      data-driven STEM education.
+      KwaZulu-Natal.  Through affiliations with the educational professionals at
+      a well-respected university, participants will be able to access a
+      hands-on, data-driven STEM education.
     image: /img/q-student-qzulu-final.jpg
 ---
