@@ -143,18 +143,16 @@ class ContactPage extends React.Component {
                         <div className="columns">
                           <div className="column">
                             <div className="field">
-                              <label className="label" htmlFor={'email'}>
-                                Email
+                              <label className="label" htmlFor={'message'}>
+                                Name
                               </label>
                               <div className="control">
                                 <input
-                                  placeholder="Email *"
                                   className="input"
-                                  type={'email'}
-                                  name={'email'}
+                                  type={'text'}
+                                  name={'name'}
                                   onChange={this.handleChange}
-                                  id={'email'}
-                                  required={true}
+                                  id={'name'}
                                 />
                               </div>
                             </div>
@@ -174,6 +172,22 @@ class ContactPage extends React.Component {
                                 />
                               </div>
                             </div>
+                          </div>
+                        </div>
+                        <div className="field">
+                          <label className="label" htmlFor={'email'}>
+                            Email
+                          </label>
+                          <div className="control">
+                            <input
+                              placeholder="Email *"
+                              className="input"
+                              type={'email'}
+                              name={'email'}
+                              onChange={this.handleChange}
+                              id={'email'}
+                              required={true}
+                            />
                           </div>
                         </div>
                         <div className="field">
