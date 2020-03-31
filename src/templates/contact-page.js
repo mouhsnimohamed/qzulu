@@ -140,10 +140,8 @@ class ContactPage extends React.Component {
                             />
                           </label>
                         </div>
-                        <div className="columns">
-                          <div className="column">
                             <div className="field">
-                              <label className="label" htmlFor={'message'}>
+                              <label className="label" htmlFor={'name'}>
                                 Name
                               </label>
                               <div className="control">
@@ -156,24 +154,6 @@ class ContactPage extends React.Component {
                                 />
                               </div>
                             </div>
-                          </div>
-                          <div className="column">
-                            <div className="field">
-                              <label className="label" htmlFor={'subject'}>
-                                Subject
-                              </label>
-                              <div className="control">
-                                <input
-                                  className="input"
-                                  type={'text'}
-                                  name={'subject'}
-                                  onChange={this.handleChange}
-                                  id={'subject'}
-                                />
-                              </div>
-                            </div>
-                          </div>
-                        </div>
                         <div className="field">
                           <label className="label" htmlFor={'email'}>
                             Email
@@ -190,6 +170,20 @@ class ContactPage extends React.Component {
                             />
                           </div>
                         </div>
+                        <div className="field">
+                            <label className="label" htmlFor={'subject'}>
+                              Subject
+                            </label>
+                            <div className="control">
+                              <input
+                                className="input"
+                                type={'text'}
+                                name={'subject'}
+                                onChange={this.handleChange}
+                                id={'subject'}
+                              />
+                            </div>
+                          </div>
                         <div className="field">
                           <label className="label" htmlFor={'message'}>
                             Message
