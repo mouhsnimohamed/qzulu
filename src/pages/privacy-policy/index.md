@@ -1,7 +1,7 @@
 ---
 templateKey: privacy-policy-page
 path: /privacy-policy
-title: Privacy PolicyY
+title: Privacy Policy
 ---
 This privacy policy ("policy") will help you understand how QZuluToken.io ("us", "we", "our") uses and protects the data you provide to us when you visit and use <https://www.qzulutoken.io>  ("website", "service").
 
