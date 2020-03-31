@@ -25,3 +25,17 @@ We are collecting your data for several reasons:
 * To send you promotional emails containing the information we think you will find interesting.
 * To contact you to fill out surveys and participate in other types of market research.
 * To customize our website according to your online behavior and personal preferences.
+
+**Safeguarding and Securing the Data**
+
+QZuluToken.io is committed to securing your data and keeping it confidential. QZuluToken.io has done all in its power to prevent data theft, unauthorized access, and disclosure by implementing the latest technologies and software, which help us safeguard all the information we collect online.
+
+**Our Cookie Policy**
+
+ Once you agree to allow our website to use cookies, you also agree to use the data it collects regarding your online behavior (analyze web traffic, web pages you spend the most time on, and websites you visit).
+
+The data we collect by using cookies is used to customize our website to your needs. After we use the data for statistical analysis, the data is completely removed from our systems.
+
+Please note that cookies don't allow us to gain control of your computer in any way. They are strictly used to monitor which pages you find useful and which you do not so that we can provide a better experience for you.
+
+If you want to disable cookies, you can do it by accessing the settings of your internet browser.
