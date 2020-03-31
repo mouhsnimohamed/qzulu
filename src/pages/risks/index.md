@@ -4,11 +4,7 @@ path: /risks
 title: Investors | Risks
 banner: /img/breadcrumbs_img_5.jpg
 image: /img/risk-qzulu-final.jpg
-filesList:
-  - title: QZulu token website.
-    file: /img/qzulu-token-website.pdf
-  - title: PDF de test.
-    file: /img/qzulu.pdf
+filesList: []
 ---
 
 Prospective investors who are considering an investment in the Quantum Zulu token offering are encouraged to evaluate the potential benefits associated with the opportunity in conjunction with the potential risks associated with the offering.
