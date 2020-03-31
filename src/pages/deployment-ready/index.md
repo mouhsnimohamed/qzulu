@@ -12,7 +12,7 @@ description: >-
   Although our primary focus involves the communities inhabited by the millions
   of residents of KwaZulu Natal, the economic and commercial impacts of our
   business activities are felt across South Africa with even broader positive
-  implications for the African continent and even internationally.This is
+  implications for the African continent and even internationally. This is
   because our businesses are focused on producing new goods and services, and
   improving the existing goods and services already produced in these
   communities.
@@ -34,15 +34,15 @@ deploymentReady:
       Our Q-Farms initiative will empower more than 25,000 individual farmers
       across the Kingdom of Zululand by incorporating state-of-the-art farming
       technologies, resulting in new agricultural opportunities and enhanced
-      farming skills.This will allow local farmers to play a more prominent role
-      in the Quantum marketplace.
+      farming skills. This will allow local farmers to play a more prominent
+      role in the Quantum marketplace.
     image: /img/q-farm-qzulu-final.jpg
   - title: Q-Energy
     description: >-
       Our Q-Energy initiative will contribute to the Kingdom’s sustainability by
       providing renewable energy resources based on proprietary technologies
       derived from our diverse commercial sector experience, research, and
-      academia.These proprietary technologies will foster energy independence
+      academia. These proprietary technologies will foster energy independence
       through optimally-engineered solutions that exceed the most demanding
       standards of the renewable energy sector.
     image: /img/q-energy-qzulu-final.jpg
@@ -50,9 +50,9 @@ deploymentReady:
     description: >-
       Quantum Age Corporation and Biomass Energy Sustainable Technologies
       (B.E.S.T.) have structured a Joint Venture agreement to harvest invasive
-      species of wood within the Ingonyama region.These woods will be exported
+      species of wood within the Ingonyama region. These woods will be exported
       under existing B.E.S.T. offtake agreements, and will increase the supply
-      of woods chips for energy generation in South Africa.Additionally, this
+      of woods chips for energy generation in South Africa. Additionally, this
       will result in the increased beneficiation of wood chips and wood-related
       products, resulting in more value-added products.
     image: /img/best-joint-venture-qzulu-final.jpg
@@ -60,9 +60,9 @@ deploymentReady:
     description: >-
       Our Q-Taxi initiative involves a systematic strategy to replace taxis and
       other shared urban vehicles that operate on fossil fuels and natural gas
-      with electric vehicles that have flash charge and solar power
-      technology.By modernizing these types of fleets, Q-Taxi will be able to
-      harness the power of the most environmentally-friendly transportation
-      modalities across the industry.
+      with electric vehicles that have flash charge and solar power technology.
+      By modernizing these types of fleets, Q-Taxi will be able to harness the
+      power of the most environmentally-friendly transportation modalities
+      across the industry.
     image: /img/q-taxi-qzulu-final.jpg
 ---
