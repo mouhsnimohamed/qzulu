@@ -7,18 +7,16 @@ image: /img/content_image_4.jpg
 ---
 Investors are being provided with the opportunity to invest in the myriad opportunities and business activities provided by the Quantum Zulu Joint Venture.
 
-To facilitate such investment, a new corporation named QZulu Incorporated has been established in the State of Wyoming in the United States of America.QZulu Incorporated has authorized the issuance of a series of equity Securities, including the following:
+To facilitate such investment, a new corporation named QZulu Incorporated has been established in the State of Wyoming in the United States of America. QZulu Incorporated has authorized the issuance of a series of equity Securities, including the following:
 
 \
 Series A: Common Shares – up to 500 million shares
 
 Series B: Preferred Shares – up to 200 million shares
 
-
-
 The Company has elected for some of these Securities to be issued in a digital format known as a Security Token, a cryptographically-generated asset derived from a blockchain network.
 
-Offering documentation related to the marketing of these Security Tokens is being prepared to enable international investors and accredited investors in the United States to participate in this Security Token Offering.Regarding the latter, details will be provided by QZulu Incorporated regarding the exemptions from the registration requirements of the Securities Act of 1933.
+Offering documentation related to the marketing of these Security Tokens is being prepared to enable international investors and accredited investors in the United States to participate in this Security Token Offering. Regarding the latter, details will be provided by QZulu Incorporated regarding the exemptions from the registration requirements of the Securities Act of 1933.
 
 Investors who are interested to learn more are encouraged to contact the company to better understand the opportunity, and the means by which they can potentially participate in these investment opportunities.
 
