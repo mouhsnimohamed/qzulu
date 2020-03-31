@@ -29,7 +29,7 @@ export const AboutPageTemplate = ({
       <section className="section section--gradient">
         <div className="container mb-2">
           <div className="columns">
-            <div className="column is-10 is-offset-1 is-12-tablet">
+            <div className="column is-10 is-offset-1">
               <h2 className="title is-size-2 has-text-weight-bold is-bold-light">
                 {heading}
               </h2>
