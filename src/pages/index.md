@@ -4,9 +4,8 @@ templateKey: index-page
 title: ' '
 image: /img/qzulutoken-introduction-image.jpg
 subheading: >-
-  Introducing QZulu Token, the gateway to participating in the empowerment and
-  transformation of more than 10 million people across more than 2 million
-  hectares through advanced technology and economic development
+  Introducing QZulu Token, the pathway to participating in the empowerment and
+  transformation of lives through Quantum technology and economic development.
 mainpitch:
   title: Why Qzulu token
   description: >
@@ -17,25 +16,25 @@ mainpitch:
 intro:
   blurbs:
     - image: /img/slider-1-qzulu-final.jpg
-      text: >
+      text: >-
         Empowering economic livelihood through next-generation technologies to
-        create opportunity and self-sufficiency.
+        create opportunity and self-sufficiency
     - image: /img/slider-2-qzulu-final.jpg
-      text: >
+      text: >-
         Transforming the Kingdom of Zululand and its people into hallmarks of
-        economic success across Africa.
+        economic success across Africa
     - image: /img/slider-3-qzulu-final.jpg
-      text: >
+      text: >-
         Strategically and dynamically partnered with the Zulu people to create
-        employment, diversify industry, and deepen commercial ties.
+        employment, diversify industry, and deepen commercial ties
     - image: /img/slider-4-qzulu-final.jpg
       text: >-
         Positive economic transformation cultivated by accomplished
-        international partners and local work ethic.
+        international partners and local work ethic
     - image: /img/slider-5-qzulu-final.jpg
       text: >-
         Inspiring economic dynamism across a broad range of industries through
-        sustainable best practices.
+        Quantum technology and sustainable best practices
   heading: ' '
   description: >
     Kaldi is the ultimate spot for coffee lovers who want to learn about their
