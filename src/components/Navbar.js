@@ -36,7 +36,7 @@ const Navbar = class extends React.Component {
       <nav className="navbar" role="navigation" aria-label="main-navigation">
         <div className="container">
           <div className="navbar-brand">
-            <Link to="/" className="logo" title="Logo">
+            <Link to="/" className="logo" title="QZulu Token">
               <img src={logo} alt="QZulu Token" style={{ width: '125px' }} />
             </Link>
             {/* Hamburger menu */}
