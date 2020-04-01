@@ -14,6 +14,9 @@ $navbar-height: 4.25rem
 .navbar .navbar-menu
   box-shadow:none !important
 
+.content p
+  text-align: justify;
+
 .content .taglist
   list-style: none
   margin-bottom: 0
@@ -285,8 +288,9 @@ $menu-label-color: $white-ter
 
 .team-members
   padding: 50px 0;
-    
-
+  
+  .member
+    margin-bottom: 35px;
   & .has-text-centered
     height: 220px;
     margin: 0 2px 24px;
@@ -295,6 +299,10 @@ $menu-label-color: $white-ter
   & .text
     text-align: center;
     padding: 0 10px;
+    & p
+      text-align: center;
+      margin: 0 5px;
+
     & h4
       font-size: 24px;
       margin-bottom: 8px;

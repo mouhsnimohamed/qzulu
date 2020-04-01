@@ -1,7 +1,7 @@
 import React from 'react';
 import { Link } from 'gatsby';
 
-import logo from '../img/logo.png';
+import logo from '../img/logo.jpg';
 import facebook from '../img/social/facebook.svg';
 import instagram from '../img/social/instagram.svg';
 import twitter from '../img/social/twitter.svg';
@@ -14,7 +14,7 @@ const Footer = class extends React.Component {
         <div className="content has-text-centered">
           <img
             src={logo}
-            alt="qzulu"
+            alt="QZulu Token"
             style={{ width: '18em', height: 'auto' }}
           />
         </div>
@@ -39,20 +39,6 @@ const Footer = class extends React.Component {
                         Our Values
                       </Link>
                     </li>
-                    {/* <li>
-                      <Link className="navbar-item" to="/contact/examples">
-                        Form Examples
-                      </Link>
-                    </li>
-                    <li>
-                      <a
-                        className="navbar-item"
-                        href="/admin/"
-                        target="_blank"
-                        rel="noopener noreferrer">
-                        Admin
-                      </a>
-                    </li> */}
                   </ul>
                 </section>
               </div>
