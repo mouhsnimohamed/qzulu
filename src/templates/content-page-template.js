@@ -12,7 +12,7 @@ export const ContentPageTemplate = ({
   filesList
 }) => {
   const PageContent = HTMLContent;
-
+  console.log(filesList);
   return (
     <Layout>
       <div className="content">
@@ -57,8 +57,9 @@ export const ContentPageTemplate = ({
                     {filesList.map(file => {
                       return (
                         <a
+                          key={file.title}
                           download
-                          class="button is-primary"
+                          className="button is-primary"
                           href={file.file.publicURL}>
                           {file.title}
                         </a>

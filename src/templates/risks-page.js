@@ -18,7 +18,7 @@ const Risks = ({ data }) => {
 };
 
 Risks.propTypes = {
-  data: PropTypes.object.isRequired
+  data: PropTypes.object
 };
 
 export default Risks;
