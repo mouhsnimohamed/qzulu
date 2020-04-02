@@ -5,7 +5,7 @@ title: Investors | Risks
 banner: /img/breadcrumbs_img_5.jpg
 image: /img/risk-qzulu-final.jpg
 filesList:
-  - title: test
+  - title: hidden
     file: /img/qzulu-token-website.pdf
 ---
 

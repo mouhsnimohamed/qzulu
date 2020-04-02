@@ -54,17 +54,19 @@ export const ContentPageTemplate = ({
                 <PageContent className="content mb-2" content={content} />
                 {filesList && filesList.length && (
                   <div className="buttons">
-                    {filesList.map(file => {
-                      return (
-                        <a
-                          key={file.title}
-                          download
-                          className="button is-primary"
-                          href={file.file.publicURL}>
-                          {file.title}
-                        </a>
-                      );
-                    })}
+                    {filesList
+                      .filter(file => file.title != 'hidden')
+                      .map(file => {
+                        return (
+                          <a
+                            key={file.title}
+                            download
+                            className="button is-primary"
+                            href={file.file.publicURL}>
+                            {file.title}
+                          </a>
+                        );
+                      })}
                   </div>
                 )}
               </div>

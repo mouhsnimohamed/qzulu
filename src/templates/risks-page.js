@@ -29,6 +29,12 @@ export const RisksQuery = graphql`
       html
       frontmatter {
         title
+        filesList {
+          title
+          file {
+            publicURL
+          }
+        }
         image {
           childImageSharp {
             fluid(maxWidth: 1300, quality: 100) {
