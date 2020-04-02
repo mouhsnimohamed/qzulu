@@ -12,7 +12,6 @@ export const ContentPageTemplate = ({
   filesList
 }) => {
   const PageContent = HTMLContent;
-  console.log(filesList);
   return (
     <Layout>
       <div className="content">
