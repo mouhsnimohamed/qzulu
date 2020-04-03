@@ -1,11 +1,9 @@
 ---
 heading: What we do
 templateKey: index-page
-title: ' '
-image: /img/qzulutoken-introduction-image.jpg
 subheading: >-
   Introducing QZulu Token, the pathway to participating in the empowerment and
-  transformation of lives through Quantum technology and economic development.
+  transformation of lives through Quantum technology and economic development
 mainpitch:
   title: Why Qzulu token
   description: >
@@ -13,6 +11,7 @@ mainpitch:
     through Quantum Kingdom of Zululand directs our holistic focus in addressing
     these opportunities through the businesses we manage and the projects they
     undertake.
+title: ' '
 intro:
   blurbs:
     - image: /img/slider-1-qzulu-final.jpg
@@ -57,6 +56,7 @@ main:
   image3:
     alt: Coffee beans
     image: /img/products-grid1.jpg
+image: /img/qzulutoken-introduction-image.jpg
 description: >-
   Kaldi is the ultimate spot for coffee lovers who want to learn about their
   java’s origin and support the farmers that grew it. We take coffee production,
