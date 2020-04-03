@@ -4,7 +4,7 @@ path: /leadership
 banner: /img/qzulutoken-leadership-image-file.jpg
 members:
   - image: /img/faiz-chowdhury-qzulu-final.jpg
-    name: 'Faiz Chowdhury '
+    name: Faiz M. Chowdhury
     function: ' Pioneering Leader of The Next Age of Humanity, THE QUANTUM AGE'
     bio: >-
       Visionary Entrepreneur, Scientist, and Technologist
