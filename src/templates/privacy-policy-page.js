@@ -16,7 +16,7 @@ export const PrivacyPolicyPageTemplate = ({
       <div className="full-width-image-container margin-top-0 with-gradient-bg">
         <div className="gradient-static-bg"></div>
         <h4 className="gradient-title is-size-2 has-text-weight-normal">
-          Legal Staff
+          Privacy Policy
         </h4>
       </div>
       <section className="section section--gradient">
