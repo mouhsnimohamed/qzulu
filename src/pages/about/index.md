@@ -9,7 +9,7 @@ heading: About Quantum Zulu
 ---
 Our Quantum Kingdom of Zululand initiative is a strategic partnership that was established to transform the Ingonyama region of South Africa into a regional and continental hallmark of economic success.
 
- With approximately millions of residents in the area that has historically and traditionally been known as the Kingdom of Zululand, the opportunity to dynamically and positively impact the lives of those in the region is our primary focus.
+ With millions of residents in the area that has historically and traditionally been known as the Kingdom of Zululand, the opportunity to dynamically and positively impact the lives of those in the region is our primary focus.
 
 Our approach has been modeled after the Singaporean brand by implementing next-generation Quantum technologies and solutions, a strategy that has successfully transformed Singapore into a shining, global example of advanced economic success. This approach exemplifies the positive economic impact and transformation that catalyze greater employment, higher incomes, economic expansion, diversified industries, and an increasing level of worker productivity.
 
