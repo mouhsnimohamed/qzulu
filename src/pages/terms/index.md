@@ -1,7 +1,7 @@
 ---
 templateKey: terms-page
 path: /terms
-title: Terms and Conditions
+title: ' '
 ---
 ## **Introduction**
 
