@@ -5,13 +5,19 @@ banner: /img/qzulutoken-leadership-image-file.jpg
 members:
   - image: /img/faiz-chowdhury-qzulu-final.jpg
     name: 'Faiz Chowdhury '
-    function: ' Founder of DTI Holdings and QAC, Chair & CEO'
-    bio: |
-      Co-chair Super Kingdom
+    function: ' Pioneering Leader of The Next Age of Humanity, THE QUANTUM AGE'
+    bio: >-
+      Visionary Entrepreneur, Scientist, and Technologist
 
-      Quantum technologies, AI, Blockchain, Smart Nano Particles & Graphene
 
-      Quantum technology scientist
+      Dedicated to bringing “Quantum of Everything” to everyone globally through
+      disruptive technology innovation, evolution, and revolution
+
+
+      Passionate environmentalist and humanitarian
+
+
+      “Infinity only touches the beginning of our imagination”
   - name: Prince Buzabazi Zulu
     function: ' Co-Chair Super Kingdom'
     bio: >-
